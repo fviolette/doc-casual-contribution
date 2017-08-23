@@ -6,5 +6,9 @@
         extensively...</abstract>
     <conbody>
         <p>Content...</p>
+        <p>New layout for <keyword conref="../_metadata/variables_Products.dita#topic/13"/><fig
+                id="fig_gmf_n1f_z1b">
+                <image href="cloud-web-custom_workspace_in_environment.png" id="image_klb_p1f_z1b"/>
+            </fig></p>
     </conbody>
 </concept>
