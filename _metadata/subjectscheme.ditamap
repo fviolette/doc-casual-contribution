@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE subjectScheme
+  PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "subjectScheme.dtd">
+<subjectScheme>
+   <title>Talend global taxonomy and metadata values</title>
+   <topicmeta>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </topicmeta>
+   <subjectdef keys="0">
+      <topicmeta>
+         <navtitle>Products</navtitle>
+      </topicmeta>
+      <subjectdef keys="10">
+         <topicmeta>
+            <navtitle>Enterprise</navtitle>
+         </topicmeta>
+         <subjectdef keys="22">
+            <topicmeta>
+               <navtitle>Talend Big Data</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="23">
+            <topicmeta>
+               <navtitle>Talend Data Integration</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="24">
+            <topicmeta>
+               <navtitle>Talend ESB</navtitle>
+            </topicmeta>
+         </subjectdef>
+      </subjectdef>
+      <subjectdef keys="11">
+         <topicmeta>
+            <navtitle>Platform</navtitle>
+         </topicmeta>
+         <subjectdef keys="183">
+            <topicmeta>
+               <navtitle>Talend Data Fabric</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="213">
+            <topicmeta>
+               <navtitle>Talend Platform - Universal (deprecated 2015-09-10)</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="214">
+            <topicmeta>
+               <navtitle>Talend Platform for Enterprise Integration (deprecated 2015-09-10)</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="215">
+            <topicmeta>
+               <navtitle>Talend Platform for Enterprise Integration with Big Data (deprecated 2015-09-10)</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="25">
+            <topicmeta>
+               <navtitle>Talend Data Management Platform</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="26">
+            <topicmeta>
+               <navtitle>Talend Big Data Platform</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="27">
+            <topicmeta>
+               <navtitle>Talend Data Services Platform</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="28">
+            <topicmeta>
+               <navtitle>Talend Real-Time Big Data Platform</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="29">
+            <topicmeta>
+               <navtitle>Talend MDM Platform</navtitle>
+            </topicmeta>
+         </subjectdef>
+      </subjectdef>
+      <subjectdef keys="13">
+         <topicmeta>
+            <navtitle>Talend Integration Cloud</navtitle>
+         </topicmeta>
+      </subjectdef>
+      <subjectdef keys="187">
+         <topicmeta>
+            <navtitle>Talend Metadata Manager</navtitle>
+         </topicmeta>
+      </subjectdef>
+      <subjectdef keys="9">
+         <topicmeta>
+            <navtitle>Community</navtitle>
+         </topicmeta>
+         <subjectdef keys="16">
+            <topicmeta>
+               <navtitle>Talend Open Studio for Data Integration</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="17">
+            <topicmeta>
+               <navtitle>Talend Open Studio for Big Data</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="18">
+            <topicmeta>
+               <navtitle>Talend Open Studio for ESB</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="19">
+            <topicmeta>
+               <navtitle>Talend Open Studio for Data Quality</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="20">
+            <topicmeta>
+               <navtitle>Talend Open Studio for MDM</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="205">
+            <topicmeta>
+               <navtitle>Talend Data Streams</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="21">
+            <topicmeta>
+               <navtitle>Talend Data Preparation Free Desktop</navtitle>
+            </topicmeta>
+         </subjectdef>
+         <subjectdef keys="216">
+            <topicmeta>
+               <navtitle>Talend ESB Standard Edition</navtitle>
+            </topicmeta>
+         </subjectdef>
+      </subjectdef>
+   </subjectdef>
+   <subjectdef keys="217">
+      <topicmeta>
+         <navtitle>OSes</navtitle>
+      </topicmeta>
+      <subjectdef keys="72">
+         <topicmeta>
+            <navtitle>Windows</navtitle>
+         </topicmeta>
+      </subjectdef>
+      <subjectdef keys="73">
+         <topicmeta>
+            <navtitle>Solaris</navtitle>
+         </topicmeta>
+      </subjectdef>
+      <subjectdef keys="74">
+         <topicmeta>
+            <navtitle>Linux</navtitle>
+         </topicmeta>
+      </subjectdef>
+      <subjectdef keys="75">
+         <topicmeta>
+            <navtitle>Mac</navtitle>
+         </topicmeta>
+      </subjectdef>
+   </subjectdef>
+   <subjectdef keys="AdditionalMeta">
+        <topicmeta>
+            <navtitle>Additional metadata</navtitle>
+        </topicmeta>
+        <subjectdef keys="hub">
+            <topicmeta>
+                <navtitle>Hub article</navtitle>
+                <shortdesc>Article to be first in the list of related links to
+                    articles on the same subject matter - Possible values: isHub/notHub</shortdesc>
+            </topicmeta>
+        </subjectdef>
+        <subjectdef keys="attachments">
+            <topicmeta>
+                <navtitle>Fluid Topics Attachments</navtitle>
+                <shortdesc>Attachments to uploaded Fluid Topics DITA Maps - 
+                Possible values: space-separated list of attachments</shortdesc>
+            </topicmeta>
+        </subjectdef>
+        <subjectdef keys="pageid">
+            <topicmeta>
+                <navtitle>Page ID</navtitle>
+                <shortdesc>Fluid Topics metadata that matches an application page.
+                Used to build predictable URLs (with Version, Module, Language).</shortdesc>
+            </topicmeta>
+        </subjectdef>
+    </subjectdef>
+   <subjectdef keys="isOrIsNotHub">
+        <topicmeta>
+            <navtitle>Hub Article?</navtitle>
+        </topicmeta>
+        <subjectdef keys="isHub"/>
+        <subjectdef keys="notHub"/>
+    </subjectdef>
+   <subjectdef keys="availability">
+        <topicmeta>
+            <navtitle>Availability</navtitle>
+        </topicmeta>
+        <subjectdef keys="subscription"/>
+    </subjectdef>
+   <subjectdef keys="targets">
+        <topicmeta>
+            <navtitle>deliveryTarget</navtitle>
+            <shortdesc>Talend target groups - Possible values:
+                offline - PDF + JAR and online - Fluid Topics</shortdesc>
+        </topicmeta>
+        <subjectdef keys="offline"/>
+        <subjectdef keys="online"/>
+    </subjectdef>
+   <enumerationdef><!-- Products --><attributedef name="product"/>
+      <subjectdef keyref="0"/>
+   </enumerationdef>
+   <enumerationdef><!-- OSes --><attributedef name="platform"/>
+      <subjectdef keyref="217"/>
+   </enumerationdef>
+   <enumerationdef>
+      <elementdef name="othermeta"/>
+      <attributedef name="name"/>
+      <subjectdef keyref="AdditionalMeta"/>
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="outputclass"/>
+      <subjectdef keyref="availability"/> 
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="audience"/>
+      <subjectdef keyref="availability"/>
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="deliveryTarget"/>
+      <subjectdef keyref="targets"/>
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="props"/>
+      <subjectdef/>
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="otherprops"/>
+      <subjectdef/>
+  </enumerationdef>
+   <enumerationdef>
+      <attributedef name="rev"/>
+      <subjectdef/>
+  </enumerationdef>
+</subjectScheme>

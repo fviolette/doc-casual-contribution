@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-summary" xml:lang="en">
+    <title>Summary</title>
+    <abstract>
+        <shortdesc><keyword conref="../../_metadata/variables_Resources.dita#topic/442"/> and
+            Snowflake provide a unique blending of technologies to allow a developer to manipulate
+            relational tables in the cloud.</shortdesc>
+    </abstract>
+    <conbody>
+        <p>This is a very powerful combination and can be used in many ways. Please read the joint
+            blog on <xref
+                href="https://www.talend.com/blog/2017/04/05/building-a-governed-data-lake-in-the-cloud/"
+                format="html" scope="external">Building a Governed Data Lake in the Cloud</xref>,
+            written by <keyword conref="../../_metadata/variables_Resources.dita#topic/442"/>’s
+            Regional Manager of Customer Success Architecture, Dale Anderson, and Snowflakes Sr.
+            Developer Evangelist, Kent Graziano for more on how the <keyword
+                conref="../../_metadata/variables_Resources.dita#topic/442"/>/Snowflake
+            partnership can work for you.</p>
+    </conbody>
+</concept>

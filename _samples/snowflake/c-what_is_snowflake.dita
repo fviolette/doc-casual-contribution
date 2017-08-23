@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-what_is_snowflake" xml:lang="en">
+    <title>What is Snowflake?</title>
+    <abstract>
+        <shortdesc>Snowflake is a patented data technology, designed from the ground up for the
+            cloud, that runs on Amazon Web Services (AWS).</shortdesc>
+    </abstract>
+    <conbody>
+        <p>Implemented as a fully-relational SQL database, Snowflake supports both structured and
+            semi-structured data, standard SQL queries, and <xref format="html"
+                href="https://en.wikipedia.org/wiki/ACID" scope="external">ACID compliance</xref>
+            without complex administration or operation requirements. The <xref format="html"
+                href="https://www.snowflake.net/product/architecture/" scope="external">Snowflake
+                Architecture</xref> separates data storage from a multi-clustered compute facility
+            enabling a unique, scalable, and managed resource for a data warehouse in the cloud.<fig
+                id="fig_ngz_3zz_q1b">
+                <image href="snowflake_architecture.png" id="image_sm1_w42_p1b"/>
+            </fig></p>
+        <p>The key to understanding how the Snowflake database works is that the storage mechanism
+            (built upon <xref format="html" href="https://aws.amazon.com/s3/?nc2=h_m1"
+                scope="external">AWS S3</xref>) is separated from the compute mechanism. They work
+            together when a connection is made. This allows Snowflake to deliver a highly-scalable
+            database in the cloud where you add more storage as needed, and create an elastic
+            cluster for computational work. Simply put, you pay for what you use when you use
+            it.</p>
+        <p>Snowflake provides a web-based <uicontrol>Workbench</uicontrol> for user access to the
+            administration and configuration of an environment. Creating a
+                <uicontrol>Warehouse</uicontrol> is easy, sized appropriate to needs. Configuration
+            settings support when an idle instance should shut down, and the number of nodes to spin
+            up as needed.<fig id="fig_hj5_3zz_q1b">
+                <image href="dvt_warehouse.png" id="image_rj5_3zz_q1b"/>
+            </fig></p>
+        <p>Switching to the <uicontrol>Database</uicontrol> tab, creating a database and granting
+            user permissions to it is also quite easy. Here you can see the tables in a selected
+            database and its current footprint.<fig id="fig_xxh_jzz_q1b">
+                <image href="dvt_database.png" id="image_lch_ts2_p1b"/>
+            </fig></p>
+        <p>The <uicontrol>Worksheet</uicontrol> tab provides users a graphical interface to execute
+            SQL queries directly against a database.<fig id="fig_gkn_jzz_q1b">
+                <image href="dvt_worksheet.png" id="image_hvd_ys2_p1b"/>
+            </fig></p>
+        <p>For additional details on Snowflake and its inner workings, visit the <xref
+                href="https://www.snowflake.net/" format="html" scope="external"
+                >www.snowflake.net</xref> website.</p>
+        <note>Currently (as of July 2017) Snowflake does not run on Azure or Google Cloud.</note>
+    </conbody>
+</concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Resources</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="420">Talend Exchange</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="421">TalendForge</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="442">Talend</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

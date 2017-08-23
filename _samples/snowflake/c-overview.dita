@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-overview" xml:lang="en">
+    <title>Overview</title>
+    <abstract>
+        <shortdesc><keyword conref="../../_metadata/variables_Resources.dita#topic/442"/> Summer
+            2017 (version 6.4.1) provides the General Availability (GA) release of the Snowflake
+            components previously available as a freely downloadable <b>Technical Preview</b> from
+            the Talend Exchange.</shortdesc>
+    </abstract>
+    <conbody>
+        <p>These components provide the connectivity and data processing support for Talend Jobs
+            that read and write data to a Snowflake cloud-instance.</p>
+    </conbody>
+</concept>

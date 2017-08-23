@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-talend_snowflake_components" xml:lang="en">
+    <title><keyword conref="../../_metadata/variables_Resources.dita#topic/442"/> Snowflake
+        Components</title>
+    <abstract>
+        <shortdesc>Two methods are available for connecting to, and interacting with, Snowflake from
+            within a <keyword conref="../../_metadata/variables_Resources.dita#topic/442"/> Job:
+            Snowflake components and JDBC components.</shortdesc>
+    </abstract>
+    <conbody>
+        <p>The preferred method is to use the new Snowflake components, which offer native
+            connectivity and direct data manipulation (DML) of data within the Snowflake
+            service.</p>
+        <p>Alternatively, you can use generic JDBC components, which offer a wider range of features
+            when data definition (DDL) is required. Together these Snowflake integration
+            capabilities provide <keyword
+                conref="../../_metadata/variables_Resources.dita#topic/442"/> developers with
+            Snowflake data processing options within <keyword
+                conref="../../_metadata/variables_Resources.dita#topic/442"/> jobs.</p>
+        <section>
+            <title>tSnowflakeConnection and tJDBCConnection</title>
+            <p>Take a closer look at how Snowflake works within <keyword
+                conref="../../_metadata/variables_Resources.dita#topic/442"/> jobs.</p>
+            <p>In this first example, the <uicontrol>tSnowflakeConnection</uicontrol> component
+                establishes the connection. Use it either by specifying the connection definition
+                and all the required parameters (refer to the details described under <xref
+                    href="c-talend_snowflake_connectivity.dita">Talend Snowflake
+                Connectivity</xref>), or preferably, change the <uicontrol>Property Type</uicontrol>
+                connection setting from <uicontrol>Built-In</uicontrol> to
+                    <uicontrol>Repository</uicontrol> and select one of the defined connections you
+                previously created. <fig id="fig_vg5_4zz_q1b">
+                    <image href="dvt_snowflakeconnection.png" id="image_r5g_2vf_p1b"/>
+                </fig></p>
+            <p>Alternativly, the second example shows use of the
+                    <uicontrol>tJDBCConnection</uicontrol> component. Fill in the required fields,
+                or change from the <uicontrol>Built-In</uicontrol> to the
+                    <uicontrol>Repository</uicontrol>
+                <uicontrol>Property Type</uicontrol> and select one of the defined connections you
+                previously created.</p>
+            <fig id="fig_xgl_4zz_q1b">
+                <image href="dvt_snowflakejdbcconnection.png" id="image_gz2_tvf_p1b"/>
+            </fig>
+            <p>In either case, use the suggested best practice to check for a valid connection in
+                the Job design, and exit if a connection cannot be made at runtime.</p>
+        </section>
+        <section>
+            <title>tWarn and tDie</title>
+            <p>A best practice is to incorporate the <uicontrol>tWarn</uicontrol> and
+                    <uicontrol>tDie</uicontrol> components. Additionally, once a job design
+                incorporates a Snowflake connection, it can be used by the other components needed
+                for data manipulation.</p>
+        </section>
+        <section>
+            <title>tSnowflakeClose and tJDBCClose</title>
+            <p>A best practice when using Snowflake connections is to ensure that you close the
+                connection before exiting the <keyword
+                    conref="../../_metadata/variables_Resources.dita#topic/442"/> Job. Use the
+                    <uicontrol>tSnowflakeClose</uicontrol> component or the
+                    <uicontrol>tJDBCClose</uicontrol> component to accomplish this.<fig
+                    id="fig_nvb_4zz_q1b">
+                    <image href="dvt_snowflakeclose.png" id="image_vtt_gwf_p1b"/>
+                </fig>They are typically triggered by the <uicontrol>tPostJob</uicontrol> component.
+                    <fig id="fig_g1j_nzz_q1b">
+                    <image placement="inline" href="dvt_snowflakejdbcclose.png"
+                        id="image_o2x_kwf_p1b"/>
+                </fig></p>
+        </section>
+        <section>
+            <title>tSnowflakeInput and tSnowflakeOutput</title>
+            <p>The final steps involve using the <uicontrol>tSnowflakeInput</uicontrol> and
+                    <uicontrol>tSnowflakeOutput</uicontrol> components to manipulate data on a
+                Snowflake connection. Both of these components allow the selection of the
+                    <uicontrol>Property Type</uicontrol> connection setting for
+                    <uicontrol>Built-In</uicontrol> or <uicontrol>Repository</uicontrol>.
+                Alternatively, you may choose from a connection object created in the <keyword
+                    conref="../../_metadata/variables_Resources.dita#topic/442"/> Job, as shown
+                previously. These two components work very much like many of the other database
+                components found on the Studio Palette supporting Oracle, MS SQL Server, MySQL, and
+                others. If you are familiar with using those, these new Snowflake components behave
+                in a very similar manner.</p>
+            <p>This example shows the <uicontrol>tSnowflakeInput</uicontrol> component using a
+                connection declared within the Job. The <uicontrol>Schema</uicontrol> selected
+                determines the table name, and the <uicontrol>Condition</uicontrol> allows a filter
+                (similar to a <uicontrol>WHERE</uicontrol> clause) to be added to the retreival of
+                data. The <uicontrol>tSnowflakeInput</uicontrol> component is also shown being used
+                for a lookup into a <uicontrol>tMap</uicontrol> component, which will make the
+                appropriate SQL join based upon its design.<fig id="fig_n1k_mzz_q1b">
+                    <image href="dvt_snowflakeinput.png" id="image_wsl_kzm_p1b"/>
+                </fig></p>
+            <note>The <uicontrol>tSnowflakeInput</uicontrol> component supports an implied
+                    <uicontrol>SELECT</uicontrol> functionality based upon the specified schema of
+                the selected table.</note>
+            <p>The next example shows the <uicontrol>tSnowflakeOutput</uicontrol> component where
+                the connection is selected from the <uicontrol>Project Repository</uicontrol>,
+                essentially making the actual connection for the specific component at runtime. Once
+                the operation of the component is complete (the dataset being passed in has finished
+                being inserted) the connection will close. This technique provides the job designer
+                a choice for connection management.<fig id="fig_qgx_lzz_q1b">
+                    <image href="dvt_snowflakelookup2.png" id="image_vq2_d1n_p1b"/>
+                </fig></p>
+            <note>The <uicontrol>tSnowflakeOutput</uicontrol> component supports
+                    <uicontrol>INSERT</uicontrol>, <uicontrol>UPDATE</uicontrol>,
+                    <uicontrol>UPSERT</uicontrol>, and <uicontrol>DELETE</uicontrol>
+                functionality.</note>
+            <p>As you likely imagined, the corresponding JDBC <uicontrol>tJDBCInput</uicontrol> and
+                    <uicontrol>tJDBCOutput</uicontrol> components can be used instead, though these
+                operations will process through the JDBC driver and bypass the native connectivity
+                provided by the Snowflake components.<fig id="fig_u5b_lc1_r1b">
+                    <image href="dvt_snowflakejdbcrow2.png" id="image_y15_41n_p1b"/>
+                </fig></p>
+        </section>
+        <section>
+            <title><uicontrol>tJDBCRow</uicontrol></title>
+            <p>The last, <uicontrol>tJDBCRow</uicontrol> component can be used to process specific
+                SQL statements against a JDBC Snowflake connection. A corresponding native
+                    <uicontrol>tSnowflakeRow</uicontrol> component is not available in this release;
+                it may appear in a future release of <keyword
+                    conref="../../_metadata/variables_Modules.dita#topic/42"/>.</p>
+        </section>
+    </conbody>
+</concept>

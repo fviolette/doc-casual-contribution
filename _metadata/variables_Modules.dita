@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Modules</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="182">Talend Identity Management</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="184">Talend Integration Cloud</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="185">Talend Remote Engine</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="194">Talend Data Streams</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="38">Talend Administration Center</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="39">Talend Log Server</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="397">Talend Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="40">Talend MDM Server</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="41">Talend MDM Web UI</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="42">Talend Studio</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="43">Talend CommandLine</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="44">Talend DQ Portal</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="45">Talend Data Stewardship</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="46">Talend Repository Manager</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="47">Talend Activity Monitoring Console</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="475">Talend Identity and Access Management</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="48">Talend Project Audit</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="49">Talend Data Preparation</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="50">Talend JobServer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="51">Talend Runtime</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="52">Talend ESB</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="524">Talend Management Console</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="53">Talend Artifact Repository</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="55">Talend SAP RFC Server</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

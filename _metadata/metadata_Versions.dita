@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+    <title>Versions</title>
+    <prolog>
+        <source>Talend</source>
+        <metadata>
+            <prodinfo>
+                <prodname/>
+                <vrmlist>
+                    <vrm id="oldest-supported-core-version" version="5.6"/>
+                    <vrm id="60" version="6.0"/>
+                    <vrm id="61" version="6.1"/>
+                    <vrm id="62" version="6.2"/>
+                    <vrm id="63" version="6.3"/>
+                    <vrm id="64" version="6.4"/>
+                    <vrm id="core" version="6.5"/>
+                    <vrm id="dataprep" version="2.1"/>
+                    <vrm id="datastreams" version="0.5"/>
+                    <vrm id="tic" version="Summer '17"/>
+                    <!-- PDF (3-digit version) -->
+                    <vrm conref="#topic/core" conaction="pushreplace" version="6.5.0M1" deliveryTarget="offline"/>
+                </vrmlist>
+            </prodinfo>
+        </metadata>
+    </prolog>
+</topic>
+

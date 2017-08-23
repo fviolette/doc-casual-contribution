@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Modules</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/182" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/182</data>
+               <data id="182">Talend Identity Management (deprecated 2017-06-29)</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/184" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/184</data>
+               <data id="184">Talend Integration Cloud</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/185" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/185</data>
+               <data id="185">Talend Remote Engine</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/194" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/194</data>
+               <data id="194">Talend Data Streams</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/38" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/38</data>
+               <data id="38">Talend Administration Center</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/39" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/39</data>
+               <data id="39">Talend Log Server</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/397" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/397</data>
+               <data id="397">Talend Installer</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/40" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/40</data>
+               <data id="40">Talend MDM Server</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/41" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/41</data>
+               <data id="41">Talend MDM Web UI</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/42" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/42</data>
+               <data id="42">Talend Studio</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/43" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/43</data>
+               <data id="43">Talend CommandLine</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/44" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/44</data>
+               <data id="44">Talend DQ Portal</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/45" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/45</data>
+               <data id="45">Talend Data Stewardship</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/46" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/46</data>
+               <data id="46">Talend Repository Manager</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/47" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/47</data>
+               <data id="47">Talend Activity Monitoring Console</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/475" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/475</data>
+               <data id="475">Talend Identity and Access Management</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/48" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/48</data>
+               <data id="48">Talend Project Audit</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/49" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/49</data>
+               <data id="49">Talend Data Preparation</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/50" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/50</data>
+               <data id="50">Talend JobServer</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/51" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/51</data>
+               <data id="51">Talend Runtime</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/52" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/52</data>
+               <data id="52">Talend ESB</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/524" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/524</data>
+               <data id="524">Talend Management Console</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/53" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/53</data>
+               <data id="53">Talend Artifact Repository</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/55" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/55</data>
+               <data id="55">Talend SAP RFC Server</data>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

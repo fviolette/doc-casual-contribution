@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-talend_snowflake_connectivity" xml:lang="en">
+    <title><keyword conref="../../../reuse/en/variables_Resources.dita#topic/442"/> Snowflake
+        Connectivity</title>
+    <abstract>
+        <shortdesc><keyword conref="../../../reuse/en/variables_Resources.dita#topic/442"/> provides
+            two ways to define connectivity to a Snowflake cloud instance.</shortdesc>
+    </abstract>
+    <conbody>
+        <p>Both are found in the Project Repository when you open a <keyword
+                conref="../../../reuse/en/variables_Modules.dita#topic/42"/> project:</p>
+        <ul>
+            <li>The preferred method is to create a direct connection in the <menucascade>
+                    <uicontrol>Metadata</uicontrol>
+                    <uicontrol>Snowflake</uicontrol>
+                </menucascade> section using native connectivity.</li>
+            <li>Alternatively, a JDBC connection in the <menucascade>
+                    <uicontrol>Metadata</uicontrol>
+                    <uicontrol>DB Connections</uicontrol>
+                </menucascade> section using a generic JDBC driver is available.</li>
+        </ul>
+    </conbody>
+</concept>

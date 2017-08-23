@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+    <title>Authors</title>
+    <prolog>
+        <author id="ahervy" href="mailto:ahervy@talend.com" format="html" scope="external">ahervy</author>
+        <author id="americo" href="mailto:americo@talend.com" format="html" scope="external">americo</author>
+        <author id="ayvonet" href="mailto:ayvonet@talend.com" format="html" scope="external">ayvonet</author>
+        <author id="danderson" href="mailto:danderson@talend.com" format="html" scope="external">danderson</author>
+        <author id="esabot" href="mailto:esabot@talend.com" format="html" scope="external">esabot</author>
+        <author id="fagathe" href="mailto:fagathe@talend.com" format="html" scope="external">fagathe</author>
+        <author id="gdalencon" href="mailto:gdalencon@talend.com" format="html" scope="external">gdalencon</author>
+        <author id="fviolette" href="mailto:fviolette@talend.com" format="html" scope="external">fviolette</author>
+        <author id="iburtally" href="mailto:iburtally@talend.com" format="html" scope="external">iburtally</author>
+        <author id="jdhaliwal" href="mailto:jdhaliwal@talend.com" format="html" scope="external">jdhaliwal</author>
+        <author id="jzhang" href="mailto:jzhang@talend.com" format="html" scope="external">jzhang</author>
+        <author id="lfrolio" href="mailto:lfrolio@talend.com" format="html" scope="external">lfrolio</author>
+        <author id="lgaudens" href="lgaudens:jzhang@talend.com" format="html" scope="external">lgaudens</author>
+        <author id="Lena" href="mailto:lli@talend.com" format="html" scope="external">lli</author>
+        <author id="hmassy" href="mailto:hmassy@talend.com" format="html" scope="external">hmassy</author>
+        <author id="mlelandais" href="mailto:mlelandais@talend.com" format="html" scope="external">mlelandais</author>
+        <author id="mpeyvel" href="mailto:mpeyvel@talend.com" format="html" scope="external">mpeyvel</author>
+        <author id="mverrilli" href="mailto:mverrilli@talend.com" format="html" scope="external">mverrilli</author>
+        <author id="nbui" href="mailto:nbui@talend.com" format="html" scope="external">nbui</author>
+        <author id="nkudikala" href="mailto:nkudikala@talend.com" format="html" scope="external">nkudikala</author>
+        <author id="nrioseco" href="mailto:nrioseco@talend.com" format="html" scope="external">nrioseco</author>
+        <author id="nwang" href="mailto:nwang@talend.com" format="html" scope="external">nwang</author>
+        <author id="Vera" href="mailto:rxie@talend.com" format="html" scope="external">rxie</author>
+        <author id="smudie" href="mailto:smudie@talend.com" format="html" scope="external">smudie</author>
+        <author id="ychen" href="mailto:ychen@talend.com" format="html" scope="external">ychen</author>
+        
+        
+        <source>Talend</source>
+    </prolog>
+</topic>
