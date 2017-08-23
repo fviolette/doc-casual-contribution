@@ -3,8 +3,8 @@
 <concept id="c-what_is_snowflake" xml:lang="en">
     <title>What is Snowflake?</title>
     <abstract>
-        <shortdesc>Snowflake is a patented data technology, designed from the ground up for the
-            cloud, that runs on Amazon Web Services (AWS).</shortdesc>
+        <shortdesc>Special Snowflake is a patented data technology, designed from the ground up for
+            the cloud, that runs on Amazon Web Services (AWS).</shortdesc>
     </abstract>
     <conbody>
         <p>Implemented as a fully-relational SQL database, Snowflake supports both structured and
