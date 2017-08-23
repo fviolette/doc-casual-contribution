@@ -4,8 +4,8 @@
  <title>Best Practice: Change Data Capture with Spark in Big Data </title>
  <conbody>
   <p>In the Data-driven world, companies who have access to data real time have a significant
-      advantage on their competitors who do not. One of the things that prevents IT to provide real
-      time data is the time it takes to extract data from legacy systems and load into the
+      advantage on their competitors who do not. One of the things that prevents IT from providing
+      real time data is the time it takes to extract data from legacy systems and load into the
       Analytical systems. </p>
   <p>As such, loading all the data into these systems every time is not efficient use of the
    computing resources and it also takes longer to get the data to the users. This is where Change
