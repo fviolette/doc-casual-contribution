@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-summary" xml:lang="en">
+    <title>Section title</title>
+    <abstract><shortdesc>Describe briefly what the article is about...</shortdesc>More
+        extensively...</abstract>
+    <conbody>
+        <p>Conclusion...</p>
+    </conbody>
+</concept>
