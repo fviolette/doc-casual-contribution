@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-step_3__creating_and_loading_view_into_a_final_reporting_table" xml:lang="en">
+    <title>Step 3: Creating and loading view into a final reporting table</title>
+    <abstract>
+        <shortdesc>In this step, a view created as on the top of the base table
+                <uicontrol>employee</uicontrol> and the external table
+                <uicontrol>employee_extnl</uicontrol>, so that only the latest data is shown. This
+            view would need to be then loaded into a final reporting table which will be accessed by
+            the subscribers of the data.</shortdesc>
+    </abstract>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Use the following SQL:</cmd>
+                <stepxmp>
+                    <codeblock>CREATE VIEW employee_view AS
+
+SELECT t1.* FROM
+
+ 
+
+(SELECT * FROM employee
+
+    UNION ALL
+
+    SELECT * FROM employee_extnl) t1
+
+JOIN
+
+    (SELECT employeeid, max(record_datetime) max_modified FROM
+
+        (SELECT * FROM employee
+
+        UNION ALL
+
+        SELECT * FROM employee_extnl) t2
+
+    GROUP BY employeeid) s
+
+ON t1.employeeid = s.employeeid AND t1.record_datetime = s.max_modified;</codeblock>
+                </stepxmp>
+                <stepxmp>
+                    <p>The results from the view are as follow:</p>
+                  
+                        <fig id="fig_f5w_mg2_g1b">
+                            <image href="results_data_employee_recordtime.png"
+                                id="image_bc5_rg2_g1b" scalefit="yes"/>
+                            <p>The view generates only the latest data.</p>
+                        </fig>
+                    
+                </stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>

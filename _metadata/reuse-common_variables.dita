@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="variables" xml:lang="en">
+    <title>Variables</title>
+    <abstract>
+        <shortdesc>Variable file. Do not publish.</shortdesc>
+    </abstract>
+    <refbody>
+        <simpletable>
+            <sthead>
+                <stentry>Version info</stentry>
+                <stentry>id</stentry>
+            </sthead>
+            <strow>
+                <stentry><keyword id="version_number">6.5.0M1</keyword></stentry>
+                <stentry>version_number</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="current_year">2017</keyword></stentry>
+                <stentry>current_year</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="publication_date">July 27th, 2017</keyword></stentry>
+                <stentry>publication_date</stentry>
+            </strow>
+        </simpletable>
+        <simpletable>
+            <sthead>
+                <stentry>Company and products</stentry>
+                <stentry>id</stentry>
+            </sthead>
+            <strow>
+                <stentry><keyword id="ar">Artifact Repository</keyword></stentry>
+                <stentry>ar</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="cmdl">CommandLine</keyword></stentry>
+                <stentry>cmdl</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tcomp">Components Catalog</keyword></stentry>
+                <stentry>tcomp</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="data_prep">Data Preparation</keyword></stentry>
+                <stentry>data_prep</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="flow_runner">Flow Runner</keyword></stentry>
+                <stentry>flow_runner</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="mdm_server">MDM Server</keyword></stentry>
+                <stentry>mdm_server</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="sam">Service Activity Monitoring</keyword></stentry>
+                <stentry>sam</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="sl">Service Locator</keyword></stentry>
+                <stentry>sl</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="sr">Service Registry</keyword></stentry>
+                <stentry>sr</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="sts">Security Token Service</keyword></stentry>
+                <stentry>sts</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="sjs">Spark Job Server</keyword></stentry>
+                <stentry>sjs</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="company">Talend</keyword></stentry>
+                <stentry>company</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="amc">Talend Activity Monitoring
+                    Console</keyword></stentry>
+                <stentry>amc</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tac">Talend Administration Center</keyword></stentry>
+                <stentry>tac</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tbd">Talend Big Data</keyword></stentry>
+                <stentry>tbd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp_bd">Talend Big Data Platform</keyword></stentry>
+                <stentry>tp_bd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tbpm">Talend BPM</keyword></stentry>
+                <stentry>tbpm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdf">Talend Data Fabric</keyword></stentry>
+                <stentry>tdf</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdi">Talend Data Integration</keyword></stentry>
+                <stentry>tdi</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp_dm">Talend Data Management Platform</keyword></stentry>
+                <stentry>tp_dm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdm">Talend Data Mapper</keyword></stentry>
+                <stentry>tdm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdp">Talend Data Preparation</keyword></stentry>
+                <stentry>tdp</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdp_fd">Talend Data Preparation Free
+                    Desktop</keyword></stentry>
+                <stentry>tdp_fd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdq">Talend Data Quality</keyword></stentry>
+                <stentry>tdq</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdqp">Talend Data Quality Portal</keyword></stentry>
+                <stentry>tdqp</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp_ds">Talend Data Services Platform</keyword></stentry>
+                <stentry>tp_ds</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tds">Talend Data Stewardship</keyword></stentry>
+                <stentry>tds</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="dsc">Talend Data Stewardship Console</keyword></stentry>
+                <stentry>dsc</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tfd">Talend Data Streams</keyword></stentry>
+                <stentry>tfd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdics">Talend Dictionary Service</keyword></stentry>
+                <stentry>tdics</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb">Talend ESB</keyword></stentry>
+                <stentry>tesb</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_cl">Talend ESB Clustering</keyword></stentry>
+                <stentry>tesb_cl</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_ct">Talend ESB Container</keyword></stentry>
+                <stentry>tesb_ct</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_is">Talend ESB Infrastructure
+                    Services</keyword></stentry>
+                <stentry>tesb_is</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_med">Talend ESB Mediation</keyword></stentry>
+                <stentry>tesb_med</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_mc">Talend ESB Mediation
+                    Components</keyword></stentry>
+                <stentry>tesb_mc</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_sv">Talend ESB Service</keyword></stentry>
+                <stentry>tesb_sv</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_sts">Talend ESB STS</keyword></stentry>
+                <stentry>tesb_sts</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tesb_smi">Talend ESB System Management
+                    Integration</keyword></stentry>
+                <stentry>tesb_smi</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tex">Talend Exchange</keyword></stentry>
+                <stentry>tex</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tidm">Talend Identity Management
+                    Service</keyword></stentry>
+                <stentry>tidm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="installer">Talend Installer</keyword></stentry>
+                <stentry>installer</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tic">Talend Integration Cloud</keyword></stentry>
+                <stentry>tic</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="job_server">Talend JobServer</keyword></stentry>
+                <stentry>job_server</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="log_server">Talend Log Server</keyword></stentry>
+                <stentry>log_server</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tmdm">Talend MDM</keyword></stentry>
+                <stentry>tmdm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp_mdm">Talend MDM Platform</keyword></stentry>
+                <stentry>tp_mdm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="mdm_web">Talend MDM Web User Interface</keyword></stentry>
+                <stentry>mdm_web</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_bd">Talend Open Studio for Big
+                    Data</keyword></stentry>
+                <stentry>tos_bd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_di">Talend Open Studio for Data
+                    Integration</keyword></stentry>
+                <stentry>tos_di</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_dq">Talend Open Studio for Data
+                    Quality</keyword></stentry>
+                <stentry>tos_dq</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_esb">Talend Open Studio for ESB</keyword></stentry>
+                <stentry>tos_esb</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_mdm">Talend Open Studio for MDM</keyword></stentry>
+                <stentry>tos_mdm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp">Talend Platform</keyword></stentry>
+                <stentry>tp</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tpa">Talend Project Audit</keyword></stentry>
+                <stentry>tpa</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tp_rtbd">Talend Real-time Big Data
+                    Platform</keyword></stentry>
+                <stentry>tp_rtbd</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="trm">Talend Repository Manager</keyword></stentry>
+                <stentry>trm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="runtime">Talend Runtime</keyword></stentry>
+                <stentry>runtime</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="runtimec">Talend Runtime container</keyword></stentry>
+                <stentry>runtimec</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="rfc">Talend SAP RFC Server</keyword></stentry>
+                <stentry>rfc</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="studio">Talend Studio</keyword></stentry>
+                <stentry>studio</stentry>
+            </strow>
+        </simpletable>
+        <simpletable>
+            <sthead>
+                <stentry>Perspective</stentry>
+                <stentry>id</stentry>
+            </sthead>
+            <strow>
+                <stentry><keyword id="p_amc">AMC</keyword></stentry>
+                <stentry>p_amc</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_bpm">BPM</keyword></stentry>
+                <stentry>p_bpm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_cdesigner">Component Designer</keyword></stentry>
+                <stentry>p_cdesigner</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_dexplorer">Data Explorer</keyword></stentry>
+                <stentry>p_dexplorer</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_debug">Debug</keyword></stentry>
+                <stentry>p_debug</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_integration">Integration</keyword></stentry>
+                <stentry>p_integration</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_java">Java</keyword></stentry>
+                <stentry>p_java</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_mapping">Mapping</keyword></stentry>
+                <stentry>p_mapping</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_mdm">MDM</keyword></stentry>
+                <stentry>p_mdm</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_mediation">Mediation</keyword></stentry>
+                <stentry>p_mediation</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_profiling">Profiling</keyword></stentry>
+                <stentry>p_profiling</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="p_soapui">soapUI</keyword></stentry>
+                <stentry>p_soapui</stentry>
+            </strow>
+        </simpletable>
+        <simpletable>
+            <sthead>
+                <stentry>Company resources</stentry>
+                <stentry>id</stentry>
+            </sthead>
+            <strow>
+                <stentry><keyword id="texchange">Talend Exchange</keyword></stentry>
+                <stentry>texchange</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tforge">TalendForge</keyword></stentry>
+                <stentry>tforge</stentry>
+            </strow>
+        </simpletable>
+        <!--These are docbook variables that would be replaced by the Related topic system-->
+        <simpletable>
+            <sthead>
+                <stentry>Temporary variables</stentry>
+                <stentry>id</stentry>
+            </sthead>
+            <strow>
+                <stentry><keyword id="component">Talend Components</keyword></stentry>
+                <stentry>component</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="component_rg">Talend Components Reference
+                    Guide</keyword></stentry>
+                <stentry>component_rg</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tdqpuag">Talend Data Quality Portal User and Administrator
+                        Guide</keyword></stentry>
+                <stentry>tdqpuag</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tiug">Talend Installation and Upgrade
+                    Guide</keyword></stentry>
+                <stentry>tiug</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="relatedguide2">Talend Installation and Upgrade
+                        Guide</keyword></stentry>
+                <stentry>relatedguide2</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="relatedguide3">Talend Installation and Upgrade
+                        Guide</keyword></stentry>
+                <stentry>relatedguide3</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tig">Talend Installation Guide</keyword></stentry>
+                <stentry>tig</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tmg">Talend Migration Guide</keyword></stentry>
+                <stentry>tmg</stentry>
+            </strow>
+            <strow>
+                <stentry><keyword id="tos_gsg">Talend Open Studio for Big Data Getting Started
+                        Guide</keyword></stentry>
+                <stentry>tos_gsg</stentry>
+            </strow>
+        </simpletable>
+    </refbody>
+</reference>

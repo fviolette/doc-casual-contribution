@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-cdc_definition" xml:lang="en">
+ <title>What is Change Data Capture?</title>
+ <conbody>
+  <p>Change Data Capture (CDC) is an advanced technology for data replication and loading in order
+   to keep multiple systems in sync with all the data changes. Through CDC, only changes in the
+   source data will need to load to the target system. The changes in the source systems will need
+   to be tracked and the right load strategy (insert, update, delete) will need to be applied to the
+   target system. The benefits of using CDC are clear and proven. It saves computing resources and
+   the data is provisioned quicker to the end users.</p>
+ </conbody>
+</concept>

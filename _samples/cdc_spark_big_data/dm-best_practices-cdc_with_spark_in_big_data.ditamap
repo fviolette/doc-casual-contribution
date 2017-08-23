@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="en"
+ id="dm-best_practices-cdc_with_spark_in_big_data">
+ <title>Best Practice: Change Data Capture with Spark in Big Data</title>
+ <topicmeta>
+  <author conref="../../_metadata/metadata_Authors.dita#topic/iburtally"/>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/124"/>
+  </category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/125"/>
+  </category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/126"/>
+  </category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/186"/>
+  </category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/218"/>
+  </category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/450"/>
+  </category>
+  <prodinfo>
+   <prodname/>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/oldest-supported-core-version"
+     conrefend="../../_metadata/metadata_Versions.dita#topic/core"/>
+   </vrmlist>
+   <platform>
+    <data conref="../../_metadata/metadata_Modules.dita#topic/42"/>
+   </platform>
+  </prodinfo>
+  <othermeta name="hub" content="isHub"/>
+ </topicmeta>
+ <topicref href="c-best_practices-cdc_with_spark_in_big_data.dita"/>
+ <topicref href="c-cdc_definition.dita"/>
+ <topicref href="c-cdc_in_traditional_databases.dita"/>
+ <topicref href="c-cdc_with_spark_in_big_data.dita">
+  <topicref href="c-data_model.dita"/>
+  <topicref href="t-step_1__loading_database_table_data_into_the_hive_internal_table.dita"/>
+  <topicref
+   href="t-step_2__loading_changes_from_source_database_table_into_the_hive_external_table.dita"/>
+  <topicref href="t-step_3__creating_and_loading_view_into_a_final_reporting_table.dita"/>
+ </topicref>
+</map>

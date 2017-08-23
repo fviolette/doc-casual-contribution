@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Products</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="10">Enterprise</keyword>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="22">Talend Big Data</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="23">Talend Data Integration</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="24">Talend ESB</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="11">Platform</keyword>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="183">Talend Data Fabric</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="213">Talend Platform - Universal</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="214">Talend Platform for Enterprise Integration</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="215">Talend Platform for Enterprise Integration with Big Data</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="25">Talend Data Management Platform</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="26">Talend Big Data Platform</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="27">Talend Data Services Platform</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="28">Talend Real-Time Big Data Platform</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="29">Talend MDM Platform</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="13">Talend Integration Cloud</keyword>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="187">Talend Metadata Manager</keyword>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="9">Community</keyword>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="16">Talend Open Studio for Data Integration</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="17">Talend Open Studio for Big Data</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="18">Talend Open Studio for ESB</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="19">Talend Open Studio for Data Quality</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="20">Talend Open Studio for MDM</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="205">Talend Data Streams</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="21">Talend Data Preparation Free Desktop</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <keyword id="216">Talend ESB Standard Edition</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

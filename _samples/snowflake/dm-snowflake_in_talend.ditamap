@@ -20,7 +20,6 @@
         </prodinfo>
         <othermeta name="hub" content="isHub"/>
     </topicmeta>
-    <mapref href="../../_metadata/subjectscheme.ditamap"/>
     <topicref href="c-overview.dita"/>
     <topicref href="c-what_is_snowflake.dita"/>
     <topicref href="c-talend_snowflake_components.dita"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-cdc_in_traditional_databases">
+  <title>CDC in traditional databases</title>
+  <conbody>
+    <p><keyword conref="../../_metadata/reuse-common_variables.dita#variables/company"/> provides CDC
+      support for all the traditional relational databases. <keyword
+        conref="../../_metadata/reuse-common_variables.dita#variables/company"/> uses a
+      subscriber/publish architecture wherein publisher captures the change data and makes it
+      available to the subscribers. The two main CDC modes are the Trigger mode and Redo/Archive
+      logs mode. Almost all the relational databases use Trigger mode except for Oracle which uses
+      Redo/Archive log mode for capturing changes in the source data. </p>
+    <p>For Trigger mode to work, the database needs to be already enabled with CDC. This is
+      typically done by stored procedures within that database. For example, in SQL Server, CDC is
+      enabled by executing <filepath>sys.sp_cdc_enable_db</filepath>.</p>
+    <p>Talend needs its own metadata for CDC to work. These are the
+        <uicontrol>SUBSCRIBER</uicontrol> table, which tracks the tables for changes and the
+        <uicontrol>Change</uicontrol> table which tracks the changes to the data in the table
+      itself. This is primarily done by creating CDC Metadata in the repository and using the
+      metadata in the Talend CDC components. <keyword
+        conref="../../_metadata/reuse-common_variables.dita#variables/company"/> provides CDC
+      components such as <uicontrol>tOracleCDC</uicontrol>, <uicontrol>tAS400CDC</uicontrol>,
+        <uicontrol>tDB2CDC</uicontrol>, etc. </p>
+    <p deliveryTarget="online">For more information about Change Data Capture, see the <keyword
+        conref="../../_metadata/variables_Products.dita#topic/183"/> User Guide.</p>
+    <p deliveryTarget="offline"> For more information about Change Data Capture, see the <keyword
+        conref="../../_metadata/variables_Products.dita#topic/183"/> User Guide on Talend Help Center
+        (<xref href="https://help.talend.com" format="html" scope="external"
+        >https://help.talend.com</xref>).</p>
+    <p>CDC can also be achieved by storing the date and time of when the record was last updated.
+      Then the filter can be applied to the extraction layer of the source system.</p>
+  </conbody>
+</concept>

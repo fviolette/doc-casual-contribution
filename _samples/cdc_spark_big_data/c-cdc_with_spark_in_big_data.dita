@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-cdc_with_spark_in_big_data" xml:lang="en">
+ <title>CDC with Spark in Big Data</title>
+ <shortdesc>This article shows a sample approach how to do CDC using <keyword
+   conref="../../_metadata/reuse-common_variables.dita#variables/company"/> components.</shortdesc>
+ <conbody>
+  <p>CDC has same advantages in the big data world too. But the challenge with using CDC in Hadoop
+   is that Hadoop is not ideal for data updates. Inserting data in Hadoop is simple in Hive but
+   updates and delete are not. As Hadoop is a distributed system where data is stored is multiple
+   nodes across the network, the performance overhead of updating a record is huge.</p>
+  <p>One of the ways to solve this issue is create Hive base or internal tables and Hive external
+   tables and build Views on the top of them. The Base table will hold the all the data until the
+   time new records are being loaded. The new changed records will be loaded into the External
+   tables. Internal tables are typically used when the data in temporary and external tables are
+   used when the data in the tables are used outside Hive.</p>
+ </conbody>
+</concept>

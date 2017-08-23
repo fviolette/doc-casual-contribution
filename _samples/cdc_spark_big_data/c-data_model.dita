@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-data_model" xml:lang="en">
+ <title>Data Model</title>
+ <conbody>
+  <p>You will have two tables in MySQL:<ul id="ul_nbq_fl3_f1b">
+    <li><uicontrol>employee_table</uicontrol>: is the source table.</li>
+    <li><uicontrol>cdc_control</uicontrol>: has the information on the table that is being tracked
+     and the last time it was updated.</li>
+   </ul><fig id="fig_ty4_ql3_f1b">
+    <image href="employee_table_and_cdc_control.png" id="image_b2t_pl3_f1b" scalefit="yes"/>
+
+   </fig></p>
+  <p>The source data is in <uicontrol>employee_table</uicontrol>.<fig id="fig_pf2_dm3_f1b">
+    <image href="source_data_in_employee_table.png" id="image_bpj_fm3_f1b"
+          scalefit="yes"/>
+      </fig></p>
+ </conbody>
+</concept>

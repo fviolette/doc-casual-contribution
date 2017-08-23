@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-step_1__loading_database_table_data_into_the_hive_internal_table" xml:lang="en">
+    <title>Step 1: Loading the database table data into the Hive internal table</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Create a standard Job to load the database table data into the Hive internal
+                    table <uicontrol>employee</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Use the <uicontrol>tHiveCreateTable</uicontrol> and
+                        <uicontrol>tHiveLoad</uicontrol> components to load the data into the Hive
+                    table.</cmd>
+            </step>
+            <step>
+                <cmd>The Talend Big Data Batch Job is as follow:</cmd>
+                <stepxmp>
+                    <fig id="fig_usm_mn3_f1b">
+                        <image href="talend_big_data_batch_job.png" id="image_bvz_143_f1b"
+                            scalefit="yes"/>
+                    </fig>
+                    <p>
+                        <ul id="ul_egm_543_f1b">
+                            <li>The data are moved from the MySQL source table
+                                    <uicontrol>employee_table</uicontrol> to the
+                                    <uicontrol>employee</uicontrol> table in Hive.</li>
+                            <li>The <uicontrol>tHiveConfiguration_1</uicontrol> and
+                                    <uicontrol>tHDFSConfiguration_1</uicontrol> components set the
+                                Hive and HDFS configuration.</li>
+                            <li>The <b>tMysqlInput</b> component reads the data from the MySQL
+                                database.</li>
+                            <li>The <b>tHiveOutput</b> component loads the data into the Hive
+                                table.</li>
+                        </ul></p>
+                </stepxmp>
+
+            </step>
+            <step>
+                <cmd>Run the Job.</cmd>
+                <stepxmp>The following shows the data in the <uicontrol>employee</uicontrol> Hive
+                    table after this Job is run:<fig id="fig_p4b_lp3_f1b">
+                        <image href="results_data_in_employee_hive_table.png"
+                            id="image_pc2_w12_g1b" scalefit="yes"/>
+                    </fig></stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>

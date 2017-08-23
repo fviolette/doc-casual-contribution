@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-best_practices-cdc_with_spark_in_big_data" xml:lang="en">
+ <title>Best Practice: Change Data Capture with Spark in Big Data </title>
+ <conbody>
+  <p>In the Data driven world, companies who have access to data real time have a significant
+   advantage on their competitors who do not. One of the things that prevents IT to provide real
+   time data is the time it takes to extract data from legacy systems and load into the Analytical
+   systems. </p>
+  <p>As such, loading all the data into these systems every time is not efficient use of the
+   computing resources and it also takes longer to get the data to the users. This is where Change
+   Data Capture (CDC) plays a significant role in integrating data faster into target systems.</p>
+  <p>Fore more information, see the following articles:<ul id="ul_rm5_ch2_g1b">
+    <li>
+     <p><xref href="http://hortonworks.com/blog/four-step-strategy-incremental-updates-hive/"
+       format="html" scope="external">Four Steps Strategy for Incremental Updates in Apache Hive on
+      Hadoop</xref></p></li>
+    <li> <p><xref href="https://msdn.microsoft.com/en-us/library/cc645937.aspx" format="html"
+       scope="external">About Change Data Capture (SQL Server)</xref></p></li>
+    <li> <p><xref href="http://go.databricks.com/jit-dw-databricks-cdc-schema-on-read" format="html"
+       scope="external">Just-in-Time Data Warehousing on Databricks</xref></p>
+    </li>
+   </ul></p>
+ </conbody>
+</concept>

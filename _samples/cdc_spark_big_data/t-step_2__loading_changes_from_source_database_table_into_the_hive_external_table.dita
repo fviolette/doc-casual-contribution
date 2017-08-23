@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t-step_2__loading_changes_from_source_database_table_into_the_hive_external_table"
+    xml:lang="en">
+    <title>Step 2: Loading changes from the source database table into the Hive external
+        table</title>
+    <shortdesc>This step reads only the changes from the source database table and loads them into
+        the Hive external table <uicontrol>employee_extnl</uicontrol>.</shortdesc>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>The Big Data Batch Job is as follow:</cmd>
+                <stepxmp>
+                    <fig id="fig_uzp_mc2_g1b">
+                        <image href="talend_big_data_batch_Job2.png"
+                            id="image_r51_4c2_g1b" scalefit="yes"/>
+                    </fig>
+                    <p>
+                        <ul id="ul_fns_vc2_g1b">
+                            <li>The source table is filtered by the last updated timestamp which is
+                                maintained in the <uicontrol>cdc_control</uicontrol> table. This is
+                                done by using this SQL in the Where condition of the
+                                    <uicontrol>tmysqlInput</uicontrol> component.<p>where
+                                        <userinput>cdc.Table_Name='employee_table'</userinput> and
+                                        <userinput>emp.`Record_DateTime`>
+                                        cdc.Last_executed"</userinput></p></li>
+                        </ul>
+                    </p>
+                    <ul id="ul_ocq_sc2_g1b">
+                        <li>The <uicontrol>tAggregateRow</uicontrol> loads one row per run into the
+                                <uicontrol>cdc_control</uicontrol> table. It does an update else
+                            insert operation on the table. If a record for the table already exists,
+                            it will update the record with the run time of the Job.<p>The runtime
+                                can be set by using the
+                                    <uicontrol>TalendDate.getCurrentDate()</uicontrol>
+                            function.</p></li>
+                    </ul>
+                    <fig>
+                        <image href="cdc_control_config.png" id="image_a4v_qd2_g1b"
+                            scalefit="yes"/>
+                    </fig>
+                </stepxmp>
+                <stepxmp>
+                    <p>The following shows the data in the source <b>employee_table</b> table after
+                        new records are added:<fig id="fig_cqq_l22_g1b">
+                            <image href="employeetable2.png" id="image_exy_n22_g1b"
+                                scalefit="yes"/>
+                        </fig></p>
+                </stepxmp>
+            </step>
+            <step>
+                <cmd>Run the Job.</cmd>
+                <stepxmp>The following shows the data in the <uicontrol>employee_extnl</uicontrol>
+                    external Hive table after the Job is run:<fig id="fig_cc5_v22_g1b">
+                        <image href="results_data_employeetable.png"
+                            id="image_g5b_z22_g1b" scalefit="yes"/>
+                    </fig></stepxmp>
+            </step>
+        </steps>
+    </taskbody>
+</task>
