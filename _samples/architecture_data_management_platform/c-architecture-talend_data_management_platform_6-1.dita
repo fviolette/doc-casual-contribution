@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-architecture-talend_data_management_platform_6-1" xml:lang="en">
+ <title>Architecture - <keyword conref="../../_metadata/variables_Products.dita#topic/25"/> 6.1 </title>
+  <abstract>
+    <shortdesc>This article describes the logical and physical architecture of Talend Platform 6.1
+      products. This Reference Architecture  provides a high level overview and useful guidance on
+      their installation and use.</shortdesc>
+  </abstract>
+ <conbody>
+  <p>The Talend Platform products are defined as follows:</p>
+  <p>
+   <ul id="ul_zyk_5hz_g1b">
+    <li><keyword conref="../../_metadata/variables_Products.dita#topic/25"/><ul id="ul_azk_5hz_g1b">
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/23"/> (DI)</li>
+      <li><keyword conref="../../_metadata/variables_Features.dita#topic/428"/> (DQ)</li>
+      <li><keyword conref="../../_metadata/reuse-common_variables.dita#variables/dsc"/> (DSC)</li>
+      <li><keyword conref="../../_metadata/variables_Features.dita#topic/428"/> (TDM)</li>
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/13"/> (TIC)</li>
+      <li>Meta Integration Model Bridge (MIMB)</li>
+     </ul></li>
+   </ul>
+   <ul id="ul_v1y_xhz_g1b">
+    <li>
+     <p><keyword conref="../../_metadata/variables_Products.dita#topic/27"/></p>
+     <p>
+      <ul id="ul_w1y_xhz_g1b">
+       <li><keyword conref="../../_metadata/variables_Products.dita#topic/25"/> +</li>
+       <li><keyword conref="../../_metadata/variables_Products.dita#topic/24"/> (Enterprise Service
+        Bus)</li>
+      </ul>
+     </p>
+    </li>
+   </ul>
+   <ul id="ul_wdj_13z_g1b">
+    <li><keyword conref="../../_metadata/variables_Products.dita#topic/26"/><ul id="ul_xdj_13z_g1b">
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/25"/> +</li>
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/22"/> (BD)</li>
+     </ul></li>
+   </ul>
+   <ul id="ul_d1n_d3z_g1b">
+    <li><keyword conref="../../_metadata/variables_Products.dita#topic/28"/><ul id="ul_e1n_d3z_g1b">
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/27"/> +</li>
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/22"/> (BD)</li>
+      <li>Big Data Services (BDS)</li>
+     </ul></li>
+   </ul>
+   <ul id="ul_ddc_f3z_g1b">
+    <li><keyword conref="../../_metadata/variables_Products.dita#topic/29"/><ul id="ul_edc_f3z_g1b">
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/27"/> +</li>
+      <li><keyword conref="../../_metadata/variables_Features.dita#topic/443"/> (Master Data
+       Management)</li>
+     </ul></li>
+   </ul>
+   <ul id="ul_bbg_g3z_g1b">
+    <li><keyword conref="../../_metadata/variables_Products.dita#topic/183"/><ul id="ul_cbg_g3z_g1b">
+      <li><keyword conref="../../_metadata/variables_Products.dita#topic/28"/> +</li>
+      <li><keyword conref="../../_metadata/variables_Features.dita#topic/443"/> (Master Data
+       Management)</li>
+     </ul></li>
+   </ul></p>
+  <p>This article will focus on the <keyword
+        conref="../../_metadata/variables_Products.dita#topic/25"/> only.</p>
+  <p>A <uicontrol>Reference Architecture</uicontrol> identifies important elements involved in
+   designing information management systems. Working from a reference architecture can increase
+   likelihood of achieving a project's critical success factors. The information below provides
+   generalized designs. Your specific use case and environment may be different; however this
+   general understanding should provide a starting point from which to adapt.</p>
+ </conbody>
+</concept>

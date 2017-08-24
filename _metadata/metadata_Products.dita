@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Products</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/10" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/10</data>
+               <data id="10">Enterprise</data>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/22" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/22</data>
+               <data id="22">Talend Big Data</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/23" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/23</data>
+               <data id="23">Talend Data Integration</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/24" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/24</data>
+               <data id="24">Talend ESB</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/11" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/11</data>
+               <data id="11">Platform</data>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/183" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/183</data>
+               <data id="183">Talend Data Fabric</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/213" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/213</data>
+               <data id="213">Talend Platform - Universal (deprecated 2015-09-10)</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/214" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/214</data>
+               <data id="214">Talend Platform for Enterprise Integration (deprecated 2015-09-10)</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/215" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/215</data>
+               <data id="215">Talend Platform for Enterprise Integration with Big Data (deprecated 2015-09-10)</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/25" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/25</data>
+               <data id="25">Talend Data Management Platform</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/26" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/26</data>
+               <data id="26">Talend Big Data Platform</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/27" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/27</data>
+               <data id="27">Talend Data Services Platform</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/28" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/28</data>
+               <data id="28">Talend Real-Time Big Data Platform</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/29" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/29</data>
+               <data id="29">Talend MDM Platform</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/13" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/13</data>
+               <data id="13">Talend Integration Cloud</data>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/187" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/187</data>
+               <data id="187">Talend Metadata Manager</data>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/9" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/9</data>
+               <data id="9">Community</data>
+            </stentry>
+            <stentry/>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/16" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/16</data>
+               <data id="16">Talend Open Studio for Data Integration</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/17" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/17</data>
+               <data id="17">Talend Open Studio for Big Data</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/18" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/18</data>
+               <data id="18">Talend Open Studio for ESB</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/19" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/19</data>
+               <data id="19">Talend Open Studio for Data Quality</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/20" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/20</data>
+               <data id="20">Talend Open Studio for MDM</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/205" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/205</data>
+               <data id="205">Talend Data Streams</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/21" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/21</data>
+               <data id="21">Talend Data Preparation Free Desktop</data>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry/>
+            <stentry>
+               <data conaction="pushreplace" conref="#topic/216" deliveryTarget="online">https://talend.poolparty.biz/coretaxonomy/216</data>
+               <data id="216">Talend ESB Standard Edition</data>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

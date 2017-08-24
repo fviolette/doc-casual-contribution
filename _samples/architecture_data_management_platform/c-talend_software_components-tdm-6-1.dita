@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-talend_software_components-tdm-6-1" xml:lang="en">
+ <title>Talend Software Components</title>
+ <conbody>
+  <p>Talend Data Management is bundled with the following software components:
+      <ul id="ul_dql_5rz_g1b">
+    <li><keyword conref="../../_metadata/variables_Modules.dita#topic/42"/></li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/38"/></li>
+      <li>SubVersion Projects</li>
+      <li>Git Projects</li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/43"/></li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/50"/></li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/51"/> (Runtime contains a
+     JobServer)</li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/47"/> (AMC)</li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/39"/></li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/53"/> (Nexus)</li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/44"/></li>
+      <li><keyword conref="../../_metadata/variables_Modules.dita#topic/45"/> (DSC)
+      </li>
+     </ul>
+    
+   </p>
+ </conbody>
+</concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-jobserver-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/50"/></title>
+  <conbody>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/50"/> is a lightweight agent
+   used for execution and monitoring of Talend tasks deployed through the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/38"/> Job Conductor. It can also be used by
+    <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/> users through the Distant Run
+   function. </p>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/50"/> is a server component
+   that runs as a service. There are no license restrictions on the number of JobServers that a
+   customer can install. The <keyword conref="../../_metadata//variables_Modules.dita#topic/50"/> also
+   monitors the server health (CPU, RAM, Disk Usage).</p>
+ </conbody>
+</concept>

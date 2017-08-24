@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-dev_test-typical_small_reference_architecture" xml:lang="en">
+  <title>DEV-TEST</title>
+  <refbody>
+    <section id="section_tmb_n4f_h1b">
+      <p>A typical shared Development and Test environment is shown in the diagram below. This
+        architecture is recommended for a small team, or where a reduced hardware infrastructure is
+          necessary.<fig id="fig_k1w_n4f_h1b">
+          <image href="small_dev-test_reference_architecture_v6-1.png"
+            id="image_mbw_r4f_h1b" scalefit="yes"/>
+        </fig></p>
+      <p>In this example, additional Execution Server(s) may be added if there are many tasks (> 25)
+        being scheduled at the same time, or if some Jobs require significant CPU, memory, or disk
+        resources.</p>
+      <p deliveryTarget="online">Refer to the <keyword
+        conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide for details
+        on supported OS, Java, Database Engines, and minimum processor, memory, and disk
+        requirements. Servers can be either Virtual or Bare Metal depending upon company policy.
+        Performance differences may be experienced between these options. That is, a shared VM may
+        not perform as well as a dedicated VM or Bare Metal.</p>
+      <p deliveryTarget="offline">Refer to the <keyword
+        conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide on Talend
+        Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+          >https://help.talend.com</xref>) for details on supported OS, Java, Database Engines, and
+        minimum processor, memory, and disk requirements. Servers can be either Virtual or Bare
+        Metal depending upon company policy. Performance differences may be experienced between
+        these options. That is, a shared VM may not perform as well as a dedicated VM or Bare
+        Metal.</p>
+      <p>Because this architecture supports both Development and Testing operations on the same
+        infrastructure, great care is recommended on its use and management. In particular, having a
+        clearly defined SDLC Practice and use of Context Variables is highly encouraged. (Context
+        Variables should define their context groups as environments <uicontrol>DEV</uicontrol>,
+          <uicontrol>TEST</uicontrol>, and <uicontrol>PROD</uicontrol> separately).</p>
+      <p deliveryTarget="online">For more information about SDLC Practice, see the Talend SDLC Best
+        Practices Guide.</p>
+      <p deliveryTarget="online">For more information about how to use contexts and variables, see
+        the <keyword conref="../../_metadata//variables_Products.dita#topic/183"/> User Guide.</p>
+      <p deliveryTarget="offline">For more information about SDLC Practice, see the Talend SDLC Best
+        Practices Guide on Talend Help Center (<xref href="https://help.talend.com" format="html"
+          scope="external">https://help.talend.com</xref>).</p>
+      <p deliveryTarget="offline">For more information about how to use contexts and variables, see
+        the <keyword conref="../../_metadata//variables_Products.dita#topic/183"/> User Guide on
+        Talend Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+          >https://help.talend.com</xref>).</p>
+    </section>
+    <simpletable frame="all" id="simpletable_hpj_1pf_h1b">
+      <sthead>
+        <stentry>Workstation/Server Role</stentry>
+        <stentry>Description</stentry>
+        <stentry>Typical Sizing</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+          <p>Developer Workstation</p>
+        </stentry>
+        <stentry>
+          <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/studio"/>
+            installed on a developer workstation must have network permissions to the <keyword
+              conref="../../_metadata//reuse-common_variables.dita#variables/tac"/> and CI Server. The
+            Studio does not necessarily need connectivity to the Execution Server, if security
+            policies restrict access. Limiting access to the <uicontrol>DEV-TEST</uicontrol>
+            environment may not be optimal, because it would eliminate the opportunity to run jobs
+            remotely.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux/MacOS</p>
+          <p>CPU: 4 Cores Minimum</p>
+          <p>RAM: 8 GB Minimum, 16 GB Recommended</p>
+          <p>Disk Size: 512+ MB Recommended</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p>Execution Server</p>
+        </stentry>
+        <stentry>
+          <p>This is where all Talend jobs that are deployed as tasks on the Job Conductor in the
+              <keyword conref="../../_metadata//reuse-common_variables.dita#variables/tac"/> will be
+            executed for testing purposes. Remote job execution from a developer workstation allows
+            direct testing without having to create a scheduled task in the <keyword
+              conref="../../_metadata//reuse-common_variables.dita#variables/tac"/>.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum, 8 Cores recommended</p>
+          <p>RAM: 2 GB RAM Minimum, 16+ GB Recommended</p>
+          <p>Disk Size: 100+ GB</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> &amp; CI Server</p>
+        </stentry>
+        <stentry>
+          <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/tac"/> (TAC)
+            server and the Continuous Integration (CI) server can reside on the same box or be
+            separated onto 2 separate boxes, depending upon utilization needs.</p>
+          <p>It is possible to include the SVN Repository and/or Database Engine on this server;
+            however, ensure that the CPU, RAM, and DISK are sufficient to accommodate all of these
+            software installations.</p>
+          <p><keyword conref="../../_metadata//reuse-common_variables.dita#variables/tac"/> includes:
+            Java 1.8 JDK; Tomcat Web UI; AMC; Kibana; Log Server</p>
+          <p>CI includes: SVN; Nexus; Command Line; CI tools (Jenkins and/or Maven); CI-Builder</p>
+          <p>Required and optional databases are shown above. These may be installed here as well,
+            if sufficient CPU, RAM, and DISK are available. Otherwise, an additional database server
+            may be needed.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum</p>
+          <p>RAM: 6 GB RAM Minimum, 16 GB Recommended</p>
+          <p>Disk Size: 1+ TB Minimum (for software, logs, &amp; projects)</p>
+        </stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>

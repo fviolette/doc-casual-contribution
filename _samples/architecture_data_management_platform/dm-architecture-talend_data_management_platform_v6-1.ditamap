@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="dm-architecture-talend_data_management_platform_v6-1" xml:lang="en">
+ <title>Architecture - Talend Data Management Platform 6.1</title>
+ <topicmeta>
+  <author conref="../../_metadata/metadata_Authors.dita#topic/mlelandais"/>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/124"/></category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/125"/></category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/126"/></category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/186"/></category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/218"/></category>
+  <category>
+   <data conref="../../_metadata/metadata_Tasks.dita#topic/450"/></category>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/25"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/26"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/27"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/28"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/29"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <prodinfo>
+   <prodname>
+    <data conref="../../_metadata/metadata_Products.dita#topic/183"/>
+   </prodname>
+   <vrmlist>
+    <vrm version="-dita-use-conref-target"
+     conref="../../_metadata/metadata_Versions.dita#topic/61"/>
+   </vrmlist>
+  </prodinfo>
+  <othermeta name="hub" content="notHub"/>
+ </topicmeta>
+ <topicref href="c-architecture-talend_data_management_platform_6-1.dita"/>
+ <topicref href="c-logical_architecture_for_data_integration-tdm-6-1.dita"/>
+ <topicref href="c-talend_software_components-tdm-6-1.dita">
+  <topicref href="c-talend_studio-talend_software_components-tdm.dita"/>
+  <topicref href="c-talend_administration_center-talend_software_components-tdm.dita"/>
+  <topicref href="c-subversion-talend_software_components.dita"/>
+  <topicref href="c-git_projects-talend_software_components-tdm-6-1.dita"/>
+  <topicref href="c-commandline-talend_software_components.dita"/>
+  <topicref href="c-jobserver-talend_software_components.dita"/>
+  <topicref href="c-runtime-talend_software_components.dita"/>
+  <topicref href="c-activity_monitoring_console-talend_software_components.dita"/>
+  <topicref href="c-logserver-talend_software_components.dita"/>
+  <topicref href="c-artifact_repository-talend_software_components.dita"/>
+  <topicref href="c-dq_portal_and_dq_data_mart-talend_software_components.dita"/>
+  <topicref href="c-data_stewardship_console-talend_software_components.dita"/>
+ </topicref>
+ <topicref href="c-physical_architecture_for_data_integration-tdm-6-1.dita">
+  <topicref href="r-talend_reference_architecture_v6-1-basic_assumptions.dita"/>
+  <topicref href="c-typical_small_reference_architecture.dita">
+   <topicref href="r-dev_test-typical_small_reference_architecture.dita"/>
+   <topicref href="r-production-typical_small_reference_architecture.dita"/>
+  </topicref>
+  <topicref href="c-typical_medium_reference_architecture.dita">
+   <topicref href="r-development-typical_medium_reference_architecture.dita"/>
+   <topicref href="r-test-typical_medium_reference_architecture.dita"/>
+   <topicref href="r-production-typical_medium_reference_architecture.dita"/>
+  </topicref>
+  <topicref href="c-typical_large_reference_architecture.dita">
+   <topicref href="r-development-typical_large_reference_architecture.dita"/>
+   <topicref href="r-test-typical_large_reference_architecture.dita"/>
+   <topicref href="r-uat-typical_large_reference_architecture.dita"/>
+   <topicref href="r-production-typical_large_reference_architecture.dita"/>
+  </topicref>
+ </topicref>
+ <topicref href="c-physical_architecture_for_data_quality-tdm-6-1.dita">
+  <topicref href="r-dq_dsc-reference_architecture-tdm-6-1.dita"/>
+ </topicref>
+</map>

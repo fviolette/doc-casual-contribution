@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Features</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="423">Service Activity Monitoring</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="424">Service Locator</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="425">Service Registry</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="426">Security Token Service</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="427">Talend Data Mapper</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="428">Talend Data Quality</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="436">Talend Dictionary Service</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="437">Talend BPM</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="443">Talend MDM</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="465">Talend Runtime Container</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-dq_portal_and_dq_data_mart-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//reuse-common_variables.dita#variables/tdqp"/> and Data
+  Quality Data Mart</title>
+ <conbody>
+  <section id="section_g4r_cf1_h1b">
+   <title><keyword conref="../../_metadata//variables_Modules.dita#topic/44"/></title>
+   <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/44"/> allows business users
+    to view Data Quality reports and dashboards via a web interface.</p>
+   <p>Technical Details:</p>
+   <ul id="ul_w5g_2f1_h1b">
+    <li>Server component</li>
+    <li>It is a web application and is accessed via a web browser.</li>
+    <li>There can be many instances of the <keyword
+      conref="../../_metadata//variables_Modules.dita#topic/44"/>, depending on business
+     requirements.</li>
+    <li>Hosted on Tomcat only (can be same Tomcat as <keyword
+      conref="../../_metadata//variables_Modules.dita#topic/38"/>)</li>
+    <li><keyword conref="../../_metadata//variables_Installers.dita#topic/399"/> can install the
+      <keyword conref="../../_metadata//variables_Modules.dita#topic/44"/> and Tomcat (v6)
+     together.</li>
+    <li>In addition to the relational database for the report data, an HSQL database is used for
+     environment / user management.</li>
+    <li>The web application server is typically run as a Service / Daemon.</li>
+   </ul>
+  </section>
+  <section id="section_ufy_jf1_h1b">
+   <title><uicontrol>Data Quality Data Mart</uicontrol></title>
+   <p>The <uicontrol>Talend DQ Data Mart</uicontrol> is a database that holds the results of the
+    execution of data quality reports. A data quality report can be executed directly from the
+     <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/>
+    <keyword conref="../../_metadata//variables_Perspectives.dita#topic/233"/> perspective, or within
+    a data integration Job that executes a specified report.</p>
+   <p>Technical Details:</p>
+   <ul id="ul_egy_lf1_h1b">
+    <li>Server component</li>
+    <li>Only MySQL and Oracle databases are supported.</li>
+    <li>Small – Medium size database: does not hold any actual source data.</li>
+    <li>Evolutionary Reports: all results from all report runs</li>
+    <li>Basic reports: last run of report</li>
+   </ul>
+  </section>
+ </conbody>
+</concept>

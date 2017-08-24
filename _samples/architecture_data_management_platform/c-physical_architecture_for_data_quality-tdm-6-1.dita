@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-physical_architecture_for_data_quality-6-1" xml:lang="en">
+ <title>Physical Architecture For Data Quality</title>
+ <conbody>
+   <p>Talend recommends that the <uicontrol>Data Quality</uicontrol> and <uicontrol>Data Stewardship
+        Console</uicontrol> environments are considered in the overall sizing of hardware and
+      resources. These features provide web-based data quality profiling, monitoring, and governance
+      for all Talend Platform products.</p>
+   <p deliveryTarget="online">For more information, see the <keyword
+        conref="../../_metadata//variables_Modules.dita#topic/44"/> User and Administrator Guide and
+      the <keyword conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> User Guide. </p>
+   <p deliveryTarget="offline">For more information, see the <keyword
+        conref="../../_metadata//variables_Modules.dita#topic/44"/> User and Administrator Guide and
+      the <keyword conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> User Guide on
+      Talend Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+        >https://help.talend.com</xref>)</p></conbody>
+</concept>

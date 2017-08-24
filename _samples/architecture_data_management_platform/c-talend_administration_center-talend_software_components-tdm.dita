@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-talend_administration_center-talend_software_components-tdm" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/></title>
+ <conbody>
+  <p>
+   <div> The <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> is a server
+    component that enables the following: <ul id="ul_apr_r1n_h1b">
+     <li>Environment Configuration</li>
+     <li>User/Role Administration</li>
+     <li>Project Administration</li>
+     <li>Authorization</li>
+     <li>Tasks Scheduling and Execution (Job Conductor)</li>
+     <li>Monitoring</li>
+     <li>Recovery &amp; Restart of Tasks<p/></li>
+    </ul><p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> (also commonly
+     referred to as TAC) is a web application that can be hosted on Tomcat, JBoss and/or Weblogic.
+     It is a fully compliant web application and comes packaged as a war file. It also controls the
+     access to other <keyword conref="../../_metadata//reuse-common_variables.dita#variables/company"
+     /> applications like the <keyword conref="../../_metadata//variables_Modules.dita#topic/47"/>,
+     Drools Guvnor, Kibana, <keyword conref="../../_metadata//variables_Modules.dita#topic/53"/> and
+     others.</p><p>In general, only one <keyword
+      conref="../../_metadata//variables_Modules.dita#topic/38"/> is needed per <keyword
+      conref="../../_metadata//reuse-common_variables.dita#variables/company"/> environment.</p><p>The
+      <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> will maintain Admin
+     Metadata (users, project definition, authorization, scheduler tasks, configuration, etc.)
+     within a database. This database is solely accessed by the <keyword
+      conref="../../_metadata//variables_Modules.dita#topic/38"/>. The database is generally small in
+     size (less than 1 GB) even with thousands of tasks running on the Job Conductor.</p><p>The
+     supported databases for the <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/>
+     are H2, MySQL, Oracle, SQL Server and PostgreSQL.</p><p deliveryTarget="online">For more
+     information about the supported and recommended versions of these databases, see the <keyword
+      conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide.</p><p
+     deliveryTarget="offline">For more information about the supported and recommended versions of
+     these databases, see the <keyword conref="../../_metadata//variables_Products.dita#topic/183"/>
+     Installation Guide on Talend Help Center (<xref href="https://help.talend.com" format="html"
+      scope="external">https://help.talend.com</xref>). </p></div>
+  </p>
+ </conbody>
+</concept>

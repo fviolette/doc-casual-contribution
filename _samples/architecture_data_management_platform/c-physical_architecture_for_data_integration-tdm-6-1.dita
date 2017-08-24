@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-physical_architecture_for_data_integration-tdm-6-1" xml:lang="en">
+ <title>Physical Architecture For Data Integration</title>
+ <conbody>
+  <p>Talend recommends that customers plan for at least 2 environments: <uicontrol>Development</uicontrol> and
+   <uicontrol>Production</uicontrol>. For larger installations, <uicontrol>Test</uicontrol> and <uicontrol>User Acceptance Test</uicontrol>
+   environments are also recommended.</p>
+  <p>An architecture team must develop a plan for each of these environments, based on the
+   functional requirements of the intended business use and characteristics of the planned Talend
+   project(s). The plan should define suitable infrastructure and sizing for these environments. To
+   assist with this architecture planning, some typical designs are described below. A few
+   assumptions are necessary. There are many variables to consider, so it is impossible to provide a
+   simple formula. Instead, the following examples provide general guidance based upon some
+   realistic assumptions for a Small, Medium, or Large installation.</p>
+ </conbody>
+</concept>

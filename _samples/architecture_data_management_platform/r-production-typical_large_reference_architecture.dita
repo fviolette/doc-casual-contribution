@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-production-typical_large_reference_architecture" xml:lang="en">
+  <title>PRODUCTION</title>
+  <refbody>
+    <section id="section_qp4_3bg_h1b">
+      <p>A typical Production environment is shown in the diagram below. This architecture is
+        recommended for a large project/Job base, or where a highly scalable hardware infrastructure
+        is necessary.</p>
+   <fig>
+        <image href="large_prod_reference_architecture_v6-1.png" id="image_it1_nbg_h1b"
+          scalefit="yes"/>
+      </fig>
+      <p>In this example, the CI server contains only Job artifacts released to production. "Virtual
+        Servers" (available in the Platform products only) are utilized with shared disk to provide
+        scalability without impact to Job tasks. </p>
+      <p deliveryTarget="online">For more information about how to configure virtual servers, see
+        the <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> User Guide.</p>
+      <p deliveryTarget="offline">For more information about how to configure virtual servers, see
+        the <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> User Guide on Talend
+        Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+          >https://help.talend.com</xref>).</p>
+      <p>Like the UAT environment, two <keyword
+          conref="../../_metadata//variables_Modules.dita#topic/38"/> servers are configured to
+        provide High Availability (HA) on the Quartz Scheduler.</p>
+      <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> in the PROD
+        Environment will need access to the Nexus Releases repositories promoted from the UAT CI
+        server only. Tasks should be created in the Job Conductor using the Nexus deployment
+        functionality. The Job binaries or "artifacts" will be downloaded from the CI Server.</p>
+      <p deliveryTarget="online">Refer to the <keyword
+          conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide for details
+        on supported OS, Java, Database Engines, and minimum processor, memory, and disk
+        requirements. Servers can be either Virtual or Bare Metal depending upon company policy.
+        Performance differences may be experienced between these options. That is, a shared VM may
+        not perform as well as a dedicated VM or Bare Metal.</p>
+      <p deliveryTarget="offline">Refer to the <keyword
+          conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide on Talend
+        Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+          >https://help.talend.com</xref>) for details on supported OS, Java, Database Engines, and
+        minimum processor, memory, and disk requirements. Servers can be either Virtual or Bare
+        Metal depending upon company policy. Performance differences may be experienced between
+        these options. That is, a shared VM may not perform as well as a dedicated VM or Bare
+        Metal.</p></section>
+    <simpletable frame="all" id="simpletable_tws_rbg_h1b">
+      <sthead>
+        <stentry>Workstation/Server Role</stentry>
+        <stentry>Description</stentry>
+        <stentry>Typical Sizing</stentry>
+      </sthead>
+      <strow>
+        <stentry>
+          <p>CI Server</p>
+        </stentry>
+        <stentry>
+          <p>The Continuous Integration (CI) Server in this example is dedicated for the Production
+            environment.</p>
+          <p>CI includes: SVN; Nexus; CommandLine; CI tools (Jenkins and/or Maven); CI-Builder.</p>
+          <p>
+            <note type="note"><p deliveryTarget="online">This configuration supports the best practices highlighted in the Talend
+                SDLC Best Practices Guide for continuous integration and continuous deployment.</p>
+            <p deliveryTarget="offline">This configuration supports the best practices highlighted
+                in the Talend SDLC Best Practices Guide on Talend Help Center (<xref
+                  href="https://help.talend.com" format="html" scope="external"
+                  >https://help.talend.com</xref>) for continuous integration and continuous
+                deployment.</p></note>
+          </p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum</p>
+          <p>RAM: 6 GB RAM Minimum, 16 GB Recommended</p>
+          <p>Disk Size: 1+ TB Minimum (for project code)</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p>Execution Server(s)</p>
+        </stentry>
+        <stentry>
+          <p>This is where all Talend Jobs that are deployed as tasks on the Job Conductor in the
+              <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> will be executed in
+            'Production' mode.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum, 8 Cores recommended</p>
+          <p>RAM: 2 GB RAM Minimum, 64+ GB Recommended</p>
+          <p>Disk Size: 250+ GB</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> Server</p>
+        </stentry>
+        <stentry>
+          <p>This <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> (TAC) server is
+            dedicated for PROD purposes. It provides access to the CI Server, which maintains
+            project executable objects only.</p>
+          <p>The required and optional databases shown above may be installed on this server, if
+            sufficient CPU, RAM, and DISK are available. Otherwise, an additional database server
+            may be needed.</p>
+          <p><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> includes: Java 1.8
+            JDK; Tomcat Web UI; AMC; Kibana; Log Server.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum</p>
+          <p>RAM: 8 GB RAM Minimum, 32 GB Recommended</p>
+          <p>Disk Size: 1+ TB Minimum (for software &amp; logs)</p>
+        </stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-best_practices-using_git_with_talend" xml:lang="en">
+ <title>Best Practices: Using Git with Talend </title>
+ <conbody>
+  <p><keyword conref="../../reuse/en/reuse-common_variables.dita#variables/company"/> introduced Git
+      and Github support for the first time in December 2015 for <keyword
+        conref="../../reuse/en/reuse-common_variables.dita#variables/company"/> 6.1.1 release. This
+      article describes some best practices on how you should use Git with <keyword
+        conref="../../reuse/en/variables_Modules.dita#topic/38"/> and <keyword
+        conref="../../reuse/en/variables_Modules.dita#topic/42"/>. </p>
+    <p>We will also cover some current limitations in <keyword
+        conref="../../reuse/en/reuse-common_variables.dita#variables/company"/> 6.1.x regarding Git
+      support and what we can expect from Talend in future versions.</p>
+ </conbody>
+</concept>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Installers</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="399">Talend Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="400">Talend Studio Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="440">Talend Data Preparation Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="441">Talend Data Streams Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="451">Talend Tools Installer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="452">Talend Integration Cloud Installer</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

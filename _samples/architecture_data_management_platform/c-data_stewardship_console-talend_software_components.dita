@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-data_stewardship_console-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> (DSC)</title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> (DSC) provides
+   a web user interface for Data Stewards to resolve issues with records and possible matches when
+   doing data matching. The DSC can be installed standalone or as part of a <keyword
+    conref="../../_metadata//reuse-common_variables.dita#variables/tmdm"/> installation. It is used by
+    <keyword conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/> for integrated
+   and complex matching.</p>
+  <p>Technical Details:</p>
+  <ul id="ul_rdf_fg1_h1b">
+   <li>Server component</li>
+   <li>It is a web application and is accessed via a web browser.</li>
+   <li>Hosted on Tomcat if standalone, or JBoss if with <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/>.</li>
+   <li>If installed with <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/>, it uses the <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/> authentication system and
+    is a child application of <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/mdm_web"/>.</li>
+   <li>If installed standalone, it provides basic user management via a file.</li>
+   <li><keyword conref="../../_metadata//reuse-common_variables.dita#variables/installer"/> can
+    install DSC with <keyword conref="../../_metadata//reuse-common_variables.dita#variables/tac"/> or
+     <keyword conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/>.</li>
+   <li>The web application server is typically run as a Service / Daemon.</li>
+  </ul>
+ </conbody>
+</concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-commandline-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/></title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/> is a server
+            component that is an exact copy of the <keyword
+                conref="../../_metadata//variables_Modules.dita#topic/42"/> running in a headless
+            non-GUI mode. It is a key component to perform continuous integration with <keyword
+                conref="../../_metadata//reuse-common_variables.dita#variables/company"/>. The
+                <keyword conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/>
+            supports several modes: Server, Interactive Shell and Scripting.</p>
+  <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/> primary
+            purpose is to generate Java code, compile and package job binaries for deployment onto
+            the Job Conductor within the <keyword
+                conref="../../_metadata//variables_Modules.dita#topic/38"/>. It is always invoked
+            through commands which can be sent to it. The same commands can be used as part of a
+            shell scripting approach.</p>
+  <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/> generally
+            runs as a service on the same server as <keyword
+                conref="../../_metadata//variables_Modules.dita#topic/38"/> and/or the CI Environment
+            (for example Jenkins, Bamboo, etc.)</p>
+ </conbody>
+</concept>

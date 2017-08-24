@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic" xml:lang="en">
+   <title>Perspectives</title>
+   <prolog>
+      <source>pp_project_coretaxonomy.concepts-20170822_1108.rdf</source>
+   </prolog>
+   <body>
+      <simpletable frame="all">
+         <strow>
+            <stentry>
+               <keyword id="224">AMC</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="225">BPM</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="226">Component Designer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="227">Data Explorer</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="228">Debug</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="229">Integration</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="230">Java</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="231">Mapping</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="232">MDM</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="233">Profiling</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="234">Mediation</keyword>
+            </stentry>
+         </strow>
+         <strow>
+            <stentry>
+               <keyword id="235">soapUI</keyword>
+            </stentry>
+         </strow>
+      </simpletable>
+   </body>
+</topic>

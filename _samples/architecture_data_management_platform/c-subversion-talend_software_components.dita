@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-subversion-talend_software_components" xml:lang="en">
+ <title>SubVersion</title>
+ <conbody>
+  <p><keyword conref="../../_metadata//reuse-common_variables.dita#variables/company"/> uses
+      Subversion as a repository for <keyword
+        conref="../../_metadata//reuse-common_variables.dita#variables/company"/> projects. Subversion
+      is a software versioning and revision control system from Apache. It is distributed as free
+      software under the Apache license. Some common distributions are:</p>
+  <ul id="ul_ozc_511_h1b">
+   <li>
+    <p>Visual SVN Server (<xref href="http://www.visualsvn.com/server/" format="html"
+      scope="external">http://www.visualsvn.com/server/</xref>)</p>
+   </li>
+   <li>CollabNet Subversion Edge (<xref href="http://www.collab.net/downloads/subversion"
+    format="html" scope="external">http://www.collab.net/downloads/subversion</xref>)</li>
+  </ul>
+  <p><keyword conref="../../_metadata//reuse-common_variables.dita#variables/company"/> stores Jobs,
+      connections, schema definitions, custom jars, third party libraries, and properties files in
+      Subversion. It also provides a versioning system for <keyword
+        conref="../../_metadata//reuse-common_variables.dita#variables/company"/> projects and
+      artifacts within the projects. Developers can transparently use common functions Get,
+      Checkout, Commit without even knowing it.</p>
+  <p>Generally, Subversion is only needed in the development environment. The only exception is when
+   using <keyword conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/>, where a
+   Subversion instance is needed in test and production environments to properly deploy <keyword
+    conref="../../_metadata//reuse-common_variables.dita#variables/p_mdm"/> artifacts.</p>
+  <p>Note that <keyword conref="../../_metadata//reuse-common_variables.dita#variables/company"/> does
+   not support the SVN Merge functionality. Hence, changes are overwritten once the user decides
+   which version to keep. </p>
+ </conbody>
+</concept>

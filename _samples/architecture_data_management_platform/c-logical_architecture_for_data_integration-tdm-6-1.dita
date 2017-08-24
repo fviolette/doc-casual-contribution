@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-logical_architecture_for_data_integration-6-1" xml:lang="en">
+ <title>Logical Architecture for Data Integration</title>
+ <conbody>
+  <p>The figure below shows the logical architecture for the <keyword
+        conref="../../_metadata/variables_Products.dita#topic/25"/>, which provides a rich set of
+      data integration and data quality features.<fig id="fig_qgz_njz_g1b">
+        <image href="logical_architecture-talend_data_management_platform.png"
+          id="image_grt_4jz_g1b" scalefit="yes"/>
+      </fig></p>
+  
+  <p>Key capabilities include:<ul id="ul_yvg_tjz_g1b">
+    <li>Connects to more than 1,000+ data sources and applications, thereby minimizing coding</li>
+    <li>Facilitates team collaboration with a shared repository</li>
+    <li>Simplifies deployment and tuning using advanced management and monitoring tools</li>
+   </ul></p>
+ </conbody>
+</concept>

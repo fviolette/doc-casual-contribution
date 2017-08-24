@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-talend_studio-talend_software_components-tdm" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/42"/></title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/> is used to develop and
+   build data integration jobs.</p>
+  <p>The key features are:<ul id="ul_ny1_1xz_g1b">
+    <li>Business oriented process modelling</li>
+    <li>Graphical Development</li>
+    <li>Broadest Connectivity (900+ components)</li>
+    <li>Real-time debugging</li>
+    <li>Auto Documentation</li>
+    <li>Shared Artifact Repository</li>
+    <li>Monitoring of processes</li>
+    <li>Data profiling and matching</li>
+   </ul></p>
+  <p> </p>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/> uses perspectives to
+   focus developers on various tasks. Perspectives present a set of features relevant to the current
+   task. Features are activated by the proper license. </p>
+  <p>The perspectives are:</p><ul id="ul_oq5_cxz_g1b">
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/229"/></li>
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/234"/> (Routing)</li>
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/232"/></li>
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/225"/></li>
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/233"/></li>
+   <li><keyword conref="../../_metadata//variables_Features.dita#topic/427"/></li>
+   <li><keyword conref="../../_metadata//variables_Perspectives.dita#topic/226"/></li>
+  </ul><p> The studio is based on Eclipse 4.4 RCP (Rich Client Platform).
+   Only Eclipse plugins allowed by the <keyword
+    conref="../../_metadata//reuse-common_variables.dita#variables/company"/> license can be used
+   within the <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/>. All features are
+   license activated. </p>
+
+ </conbody>
+</concept>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-activity_monitoring_console-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/47"/> (AMC)</title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/47"/> is a set of features
+   that display information about the execution of each task. It is used in conjunction with a
+   database consisting of 3 database tables or 3 files on disk (stats, logs and flow meter). The
+   schema of each table/file can be extended to add more columns for extra information. Talend Jobs,
+   if configured, will write to the <keyword conref="../../_metadata//variables_Modules.dita#topic/47"
+   /> tables, and the information can then be accessed through the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/42"/> or the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/38"/>. </p>
+  <p>The volume of data stored in the database tables or files is directly related to the number of
+   tasks and their frequency of execution. Developers must design additional jobs to manage the size
+   and to perform archiving for the data within these 3 tables. Additional indexes can be added to
+   the 3 tables to enhance their performance.</p>
+  <p deliveryTarget="online">For more information about the compatible databases, see the <keyword
+    conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide.</p>
+  <p deliveryTarget="offline">For more information about the compatible databases, see the <keyword
+    conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide on Talend Help
+   Center (<xref href="https://help.talend.com" format="html" scope="external"
+    >https://help.talend.com</xref>). </p>
+ </conbody>
+</concept>

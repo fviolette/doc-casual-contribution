@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-git_projects-talend_software_components-tdm-6-1" xml:lang="en">
+ <title>Git Projects</title>
+ <conbody>
+  <p>Git is used with Drools to store rules. This usage of Git allows you to take full advantage of
+   features including versioning, branching, and cloning repositories. <keyword
+    conref="../../_metadata//reuse-common_variables.dita#variables/company"/> supports a Git backend
+   with the same workflow as for SVN.</p>
+  
+  <p deliveryTarget="online">For a best practices guide on using Git with <keyword
+   conref="../../_metadata//variables_Resources.dita#topic/442"/>, see also <xref
+    href="c-best_practices-using_git_with_talend.dita"
+   />.</p>
+  <p deliveryTarget="offline">You can also find a best practices guide on using Git with <keyword
+    conref="../../_metadata//variables_Resources.dita#topic/442"/> on Talend Help Center (<xref
+    href="https://help.talend.com" format="html" scope="external"
+   >https://help.talend.com</xref>).</p>
+ </conbody>
+</concept>

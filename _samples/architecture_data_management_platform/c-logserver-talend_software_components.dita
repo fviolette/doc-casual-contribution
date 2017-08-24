@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-logserver-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/39"/></title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/39"/> is based on
+   ElasticSearch and LogStash (<xref href="http://logstash.net/" format="html" scope="external"
+    >http://logstash.net/</xref>). It is used to streamline the capture and storage of logs from
+    <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/>, <keyword
+    conref="../../_metadata//reuse-common_variables.dita#variables/mdm_server"/>, ESB Server and Tasks
+   running through the Job Conductor. </p>
+  <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/39"/> runs as a service,
+   generally on the same server as the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/38"/>. The Kibana UI in the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/38"/> connects to ElasticSearch and enables
+   the administrator/user to query and search the logs.</p>
+ </conbody>
+</concept>

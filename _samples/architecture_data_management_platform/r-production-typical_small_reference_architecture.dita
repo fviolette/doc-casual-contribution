@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-production-typical_small_reference_architecture" xml:lang="en">
+  <title>PRODUCTION</title>
+  <refbody>
+    <section id="section_qpy_gqf_h1b">
+      <p>A typical Production environment is shown in the diagram below. This architecture is
+        recommended for a small project with few Jobs, or where a reduced hardware infrastructure is
+          necessary.</p><fig id="fig_pb1_lqf_h1b">
+          <image href="small_prod_reference_architecture_v6-1.png" id="image_hzh_nqf_h1b"
+            scalefit="yes"/>
+        </fig>
+      <p>In this example, two Execution Servers distribute the load based upon CPU, memory, and disk
+        resource requirements. More Execution Servers may be added.</p>
+      <p deliveryTarget="online">Refer to the <keyword
+        conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide for details
+        on supported OS, Java, Database Engines, and minimum processor, memory, and disk
+        requirements. Servers can be either Virtual or Bare Metal depending upon company policy.
+        Performance differences may be experienced between these options. That is, a shared VM may
+        not perform as well as a dedicated VM or Bare Metal.</p>
+      <p deliveryTarget="offline">Refer to the <keyword
+        conref="../../_metadata//variables_Products.dita#topic/183"/> Installation Guide on Talend
+        Help Center (<xref href="https://help.talend.com" format="html" scope="external"
+          >https://help.talend.com</xref>) for details on supported OS, Java, Database Engines, and
+        minimum processor, memory, and disk requirements. Servers can be either Virtual or Bare
+        Metal depending upon company policy. Performance differences may be experienced between
+        these options. That is, a shared VM may not perform as well as a dedicated VM or Bare
+        Metal.</p>
+     
+    </section>
+    <simpletable frame="all" id="simpletable_k32_5qf_h1b">
+      <sthead>
+        <stentry>Workstation/Server Role</stentry>
+        <stentry>Description</stentry>
+        <stentry>Typical Sizing</stentry>
+      </sthead>
+      <strow>
+        <stentry>Execution Server</stentry>
+        <stentry>
+          <p>This is where all Production-ready Talend jobs are deployed as tasks using the Job
+            Conductor in the <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/>.
+              <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/> remote Job
+            execution is highly discouraged and not shown.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum, 8 Cores recommended</p>
+          <p>RAM: 4 GB RAM Minimum, 16+ GB Recommended</p>
+          <p>Disk Size: 100+ GB</p>
+        </stentry>
+      </strow>
+      <strow>
+        <stentry>
+          <p><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> &amp; CI Server</p>
+        </stentry>
+        <stentry>
+          <p>The <keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> (TAC) server and
+            the Continuous Integration (CI) server can reside on the same box or be separated onto
+            two separate boxes.</p>
+          <p>The SVN Server for Project and Library repositories may be installed on this server, if
+            sufficient CPU, RAM, and DISK are available. Otherwise, an additional server for CI may
+            be needed.</p>
+          <p>The required and optional databases shown above may be installed on this server, if
+            sufficient CPU, RAM, and DISK are available. Otherwise, an additional database server
+            may be needed.</p>
+          <p><keyword conref="../../_metadata//variables_Modules.dita#topic/38"/> includes: Java 1.8
+            JDK; Tomcat Web UI; AMC; Kibana; Log Server</p>
+          <p>CI includes: SVN; Nexus; Command Line; CI tools (Jenkins and/or Maven); CI-Builder</p>
+          <p>
+            <note type="note">The Audit database is generally not installed on the Production
+              environment.</note>
+          </p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux</p>
+          <p>CPU: 4 Cores Minimum</p>
+          <p>RAM: 8 GB RAM Minimum, 16+ GB Recommended</p>
+          <p>Disk Size: 1+ TB Minimum (for software, logs &amp; projects)</p>
+        </stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>

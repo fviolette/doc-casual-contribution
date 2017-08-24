@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-dq_dsc-reference_architecture-6-1" xml:lang="en">
+  <title>Data Quality/Data Stewardship Console</title>
+  <refbody>
+    <section id="section_plr_xcg_h1b">
+      <p>The diagram below shows the main components needed for data quality features of the
+        platform. This architecture may be replicated in DEV, TEST, UAT, and PROD environments as
+        needed. Each environment will follow the same architecture design. Include:<ul
+          id="ul_sc3_ycg_h1b">
+          <li>2 Databases/Schemas (eg: DQP611 &amp; DSC611)</li>
+          <li>1 Server that will host the <keyword
+              conref="../../_metadata//variables_Modules.dita#topic/44"/> and the <keyword
+              conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> web applications.
+            The two web applications will need to be accessible to business users and data stewards.
+            Hence, the security requirements on this server may be different, due to access
+            requirements for users other than developers and administrators.<ul id="ul_el4_vdg_h1b">
+              <li>For a <uicontrol>SMALL</uicontrol> reference architecture this may be installed on
+                the DEV-TEST and PROD servers without much impact.</li>
+              <li>For a <uicontrol>MEDIUM</uicontrol> reference architecture this may be installed on the DEV and
+                TEST servers; however separate servers may be needed for UAT and PROD.</li>
+              <li>For a <uicontrol>LARGE</uicontrol> reference architecture this may need to be installed on
+                separate servers for each of the DEV, TEST, UAT, and PROD environments.</li>
+            </ul></li>
+        </ul></p>
+    <fig>
+        <image href="dq_dsc_reference_architecture_v6-1.png" id="image_jml_jdg_h1b"
+          scalefit="yes"/>
+      </fig>
+    <note type="note">
+        <p>Depending upon utilization of the <keyword
+            conref="../../_metadata//variables_Modules.dita#topic/44"/> and <keyword
+            conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> in each environment
+          where a shared server is involved, the sizing recommendations below may need to be
+          accumulative to the guidelines described above.</p>
+      </note></section>
+    <simpletable frame="all" id="simpletable_hp2_pdg_h1b">
+      <sthead>
+        <stentry>Workstation/Server Role</stentry>
+        <stentry>Description</stentry>
+        <stentry>Typical Sizing</stentry>
+      </sthead>
+      <strow>
+        <stentry><keyword conref="../../_metadata//variables_Modules.dita#topic/44"/></stentry>
+        <stentry>
+          <p>This server will host the <keyword
+              conref="../../_metadata//variables_Modules.dita#topic/44"/> and the <keyword
+              conref="../../_metadata//reuse-common_variables.dita#variables/dsc"/> web
+            applications.</p>
+        </stentry>
+        <stentry>
+          <p>OS: Windows/Linux (See Installation Guide)</p>
+          <p>CPU: 8 Cores Minimum</p>
+          <p>RAM: 16 GB RAM</p>
+          <p>Disk Size: 100 GB</p>
+        </stentry>
+      </strow>
+    </simpletable>
+  </refbody>
+</reference>

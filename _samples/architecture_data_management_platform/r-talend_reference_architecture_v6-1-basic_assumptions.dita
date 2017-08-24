@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r-talend_reference_architecture_v6-1-basic_assumptions" xml:lang="en">
+  <title>Talend Reference Architecture v6.1</title>
+  <refbody>
+    <section id="section_ic1_smf_h1b">
+      <title>Basic assumptions</title>
+      <p>
+        <simpletable frame="all" id="simpletable_q1w_tmf_h1b">
+          <sthead>
+            <stentry/>
+            <stentry>SMALL</stentry>
+            <stentry>MEDIUM</stentry>
+            <stentry>LARGE</stentry>
+          </sthead>
+          <strow>
+            <stentry>USERS</stentry>
+            <stentry>3-5</stentry>
+            <stentry>10-18</stentry>
+            <stentry>20+</stentry>
+          </strow>
+          <strow>
+            <stentry>ENVIRONMENTS</stentry>
+            <stentry>DEV-TEST<p>PROD</p></stentry>
+            <stentry>DEV<p>TEST</p><p>PROD</p></stentry>
+            <stentry>DEV<p>TEST</p><p>UAT</p><p>PROD</p></stentry>
+          </strow>
+          <strow>
+            <stentry>PROJECTS</stentry>
+            <stentry>1-2</stentry>
+            <stentry>2-4</stentry>
+            <stentry>5+</stentry>
+          </strow>
+          <strow>
+            <stentry>JOBS</stentry>
+            <stentry>5-20+</stentry>
+            <stentry>30-50+</stentry>
+            <stentry>100+</stentry>
+          </strow>
+          <strow>
+            <stentry>DATA</stentry>
+            <stentry>100Mb-2Gb+</stentry>
+            <stentry>5Gb-100Gb+</stentry>
+            <stentry>250Gb+</stentry>
+          </strow>
+          <strow>
+            <stentry>SOURCES</stentry>
+            <stentry>1-3</stentry>
+            <stentry>5-8</stentry>
+            <stentry>10+</stentry>
+          </strow>
+          <strow>
+            <stentry>SOURCE/TARGET<p>TYPES</p></stentry>
+            <stentry>DB<p>FILE</p></stentry>
+            <stentry>DB<p>FILE</p><p>BD</p></stentry>
+            <stentry>DB<p>FILE</p><p>BD</p><p>STREAM</p></stentry>
+          </strow>
+          <strow>
+            <stentry>TARGETS</stentry>
+            <stentry>5+</stentry>
+            <stentry>10+</stentry>
+            <stentry>25+</stentry>
+          </strow>
+          <strow>
+            <stentry>LOAD</stentry>
+            <stentry>WEEKLY</stentry>
+            <stentry>DAILY</stentry>
+            <stentry>HOURLY</stentry>
+          </strow>
+        </simpletable>
+      </p>
+    </section>
+  </refbody>
+</reference>

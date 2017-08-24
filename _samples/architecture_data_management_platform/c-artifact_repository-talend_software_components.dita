@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-artifact_repository-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//reuse-common_variables.dita#variables/ar"/></title>
+ <conbody>
+  <p>The <keyword conref="../../_metadata//reuse-common_variables.dita#variables/ar"/> is a Nexus OSS
+   bundled with the Talend product. It is used for the following:</p>
+  <ul id="ul_jgx_b21_h1b">
+   <li>Receive and store patches from Talend Website for deployment</li>
+   <li>Store published artifacts (Jobs, Services, Routes) from the <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/studio"/></li>
+   <li>Store third party libraries needed by the <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/studio"/> and <keyword
+     conref="../../_metadata//reuse-common_variables.dita#variables/cmdl"/></li>
+  </ul>
+  <p>Technical Details:</p>
+  <ul id="ul_kgx_b21_h1b">
+   <li>It is a server component and runs as a service.</li>
+   <li>It is a web application and is accessed via a web browser.</li>
+   <li>There may be one or many instances of Nexus. Generally, it is recommended to have just one
+    instance.</li>
+   <li>One instance of Nexus can manage several repositories. At a minimum we need two repositories:
+    snapshots and releases repositories.</li>
+   <li>It may be used to proxy public Maven repositories for third party Java libraries.</li>
+  </ul>
+ </conbody>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c-runtime-talend_software_components" xml:lang="en">
+ <title><keyword conref="../../_metadata//variables_Modules.dita#topic/51"/></title>
+  <conbody>
+  <p><keyword conref="../../_metadata//variables_Modules.dita#topic/51"/> is an OSGi container based
+   on Apache Karaf project. It allows you to deploy and execute various components and
+   applications.</p>
+  <p>It can be used to deploy and execute all the services, routes and generic OSGi features created
+   by the <keyword conref="../../_metadata//variables_Modules.dita#topic/42"/>. </p>
+  <p>It provides the following features:</p>
+  <ul id="ul_gqk_sc1_h1b">
+   <li>Embark a JobServer agent for the execution of DI tasks</li>
+   <li>Administration and monitoring via jmx</li>
+   <li>Control of container via direct shell, ssh or web console</li>
+  </ul>
+  <p>It is recommended to install and configure the <keyword
+    conref="../../_metadata//variables_Modules.dita#topic/51"/> instead of the JobServer agent if
+   there are requirements to build services and routes. However, sometimes it may be preferred to
+   use JobServer agent and <keyword conref="../../_metadata//variables_Modules.dita#topic/51"/> on
+   different execution servers for separation of concerns.</p>
+ </conbody>
+</concept>
