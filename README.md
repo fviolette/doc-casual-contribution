@@ -28,7 +28,7 @@ For the purpose of this test, creating a new article means editing the template 
 1. Navigate to the `_samples/` test folder.
 2. Navigate into the article you want to edit.
 
-   Published versions on the selected articles and correponding folders:
+   Published versions on the selected articles and corresponding folders:
 
    - [Architecture - Talend Data Management Platform 6.1](https://help.talend.com/reader/t2d9W5LwjZdETEJJST~2Jg/~hcTOcWJ60nKXshJWWk1HQ) (`samples/architecture_data_management_platform/`)
    - [Best Practice: Change Data Capture with Spark in Big Data](https://help.talend.com/reader/qBONZimp3CN7reRcw3X8qA/Rb~ESugOf1yFOJe2vRGKmw) (`_samples/cdc_spark_big_data/`)
