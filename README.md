@@ -30,7 +30,7 @@ For the purpose of this test, creating a new article means editing the template 
 
    Published versions on the selected articles and corresponding folders:
 
-   - [Architecture - Talend Data Management Platform 6.1](https://help.talend.com/reader/t2d9W5LwjZdETEJJST~2Jg/~hcTOcWJ60nKXshJWWk1HQ) (`samples/architecture_data_management_platform/`)
+   - [Architecture - Talend Data Management Platform 6.1](https://help.talend.com/reader/t2d9W5LwjZdETEJJST~2Jg/~hcTOcWJ60nKXshJWWk1HQ) (`_samples/architecture_data_management_platform/`)
    - [Best Practice: Change Data Capture with Spark in Big Data](https://help.talend.com/reader/qBONZimp3CN7reRcw3X8qA/Rb~ESugOf1yFOJe2vRGKmw) (`_samples/cdc_spark_big_data/`)
    - [Snowflake Components in Talend](https://help.talend.com/reader/vftIUG8awmW0On_yhMotqA/NBw~_mrvqvi7Af1~T4d2BQ) (`_samples/snowflake`)
 
