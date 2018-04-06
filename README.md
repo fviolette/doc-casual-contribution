@@ -1,6 +1,6 @@
 # Using oXygen Web Author for casual contributions
 
- Access the free trial oXygen Web Author environment at [https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html](https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html)
+ Access the free trial oXygen Web Author environment at [https://www.oxygenxml.com/oxygen-xml-web-author/app/oxygen.html](https://www.oxygenxml.com/webapp-demo-aws/app/oxygen.html)
  
  You need a have a GitHub account.
  
